@@ -32,6 +32,7 @@ export const restaurantMenu = [
         protein: "200 gram of tofu",
         veggies: "200 grams of fresh cabbage, tofu, onion, broccoli, and mushrooms",
         price: "9.99",
-    }
+    },
+    
 ]
 
