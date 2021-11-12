@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&family=Open+Sans:ital,wght@1,800&display=swap');
+.container {
+  padding: 0 ;
+}
 
 /*All this CSS is for Mobile First. Please use devTools Samsung Galaxy Fold*/
 .main {
@@ -10,9 +14,98 @@
   align-items: center;
   */
 }
+
+
+.titleDiv{
+  position: absolute;
+  left:10%;
+  top:20%;
+  
+}
+
+.underline{
+  font-size: 3em;
+  text-decoration:rgb(177, 121, 18) wavy underline;
+  /* text-shadow:  -3px 4px black; */
+  color:transparent;
+}
+
+.titleContainer{
+width:100vw;
+height:100vh;
+position:relative;
+background: url("../images/landingImage.jpg") center/cover no-repeat;
+/* text-decoration:orange wavy underline;  */
+}
+
+.titleContainer h1{
+  color:rgb(247, 184, 68);  
+  font-style: italic;
+  font-family:"Open Sans";
+  font-size:7em;
+  text-shadow: -3px 4px black;
+
+}
+
+.titleContainer p{
+  color:rgb(247, 184, 68);
+margin-top: 1.5em;
+font-size: 3em;
+font-family: Arapey;
+font-style: italic;
+
+}
 .aboutContainer {
-  /*some CSS*/
-  color: red
+  width:100vw;
+  height:100vh;
+  position:relative;
+  background-color:rgb(224, 144, 52);
+
+}
+
+.imageContainerAboutLeft{
+  width:30vw;
+  height:100vh;
+  background: url(../images/aboutImage.jpg) center/cover no-repeat;
+  position:absolute;
+  transform:skewX(5deg);
+  left:-10em;
+}
+
+.imageContainerAboutRight{
+  width:30vw;
+  height:100vh;
+  background: url(../images/aboutImage.jpg) center/cover no-repeat;
+  position:absolute;
+  transform:skewX(5deg);
+  right:-10em;
+  top:0;
+}
+.aboutContainer article{
+  width:40vw;
+  margin:0 auto;
+  padding-top: 10em;
+}
+.aboutContainer article h2{
+  font-style: italic;
+  font-family:"Open Sans";
+  font-size:5em;
+  text-align: center;
+}
+.aboutContainer article p{
+  margin-top: 1.5em;
+  font-size: 2em;
+  font-family: Arapey;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.underline2 {
+  margin-left:4em;
+  font-size: 2em;
+  text-decoration:black wavy underline;
+  /* text-shadow:  -3px 4px black; */
+  color:transparent;
 }
 .menuContainer {
   
