@@ -14,30 +14,30 @@ export default function Home() {
       </Head>
 
       <header>
-         {/*imageLogo+Nav  */}
-         
+        {/*imageLogo+Nav  */}
+
       </header>
       <main className={styles.main}>
-      <section className={styles.titleContainer}>
+        <section className={styles.titleContainer}>
           {/* slide 1 */}
           <div className={styles.titleDiv}>
-          <h1>STIR IT UP!</h1> 
-          
-        <div className={styles.underline}>_________________________</div>
-        <p> Mongolian BBQ Restaurant!</p>
-        </div>
+            <h1>STIR IT UP!</h1>
+
+            <div className={styles.underline}>_____________________</div>
+            <p> Mongolian BBQ Restaurant!</p>
+          </div>
         </section>
         <section className={styles.aboutContainer}>
           {/* slide 2 */}
-         
+
           <div className={styles.imageContainerAboutLeft}></div>
           <article>
-          <h2>ABOUT US</h2>
-          <div className={styles.underline2}>_________________________</div>
+            <h2>ABOUT US</h2>
+            <div className={styles.underline2}>______________________</div>
 
-          <p>Based of the traditional recepie by Wu Zhaonan
-Stir it Up! Mongolian Barbecue combines a selection of marinated meats and vegetables which are then stir fried.</p>
-<p>Just like Wu Zhaonan who had to flee his native China we pride ourself In hiring Refugees</p>
+            <p>Based of the traditional recepie by Wu Zhaonan
+              Stir it Up! Mongolian Barbecue combines a selection of marinated meats and vegetables which are then stir fried.</p>
+            <p>Just like Wu Zhaonan who had to flee his native China we pride ourself In hiring Refugees</p>
           </article>
           <div className={styles.imageContainerAboutRight}></div>
 
