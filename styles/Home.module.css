@@ -1,7 +1,5 @@
-.container {
-  padding: 0 2rem;
-}
 
+/*All this CSS is for Mobile First. Please use devTools Samsung Galaxy Fold*/
 .main {
   /*min-height: 100vh;
   padding: 4rem 0;
@@ -17,8 +15,25 @@
   color: red
 }
 .menuContainer {
+  
   /*some CSS*/
-  color: red
+  background: cadetblue;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.menuSetContainer{
+  border: 1px solid black;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.menuCard {
+  border: 1px solid black;
+
 }
 .orderContainer {
   /*some CSS*/
@@ -26,10 +41,22 @@
 
 .footer {
   /*some CSS*/
+  width: 100vw;
+  height: 100vh;
+  background: lightblue;
 }
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
+
+/*SMALL PHONES*/
+@media (min-width: 480px) {
+  
+}
+
+/*TABLET*/
+@media (min-width: 780px) {
+  
+}
+
+/*LAPTOP AND MORE*/
+@media (min-width: 1080px) {
+  
 }

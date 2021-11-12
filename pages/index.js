@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Footer from '../components/Footer'
+import Menu from '../components/Menu'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -20,10 +22,7 @@ export default function Home() {
           {/* slide 2 */}
           <h2>About</h2>
         </section>
-        <section className={styles.menuContainer}>
-          {/* slide 3 */}
-          <h2>Menu</h2>
-        </section>
+        <Menu />
         <section className={styles.orderContainer}>
           {/* slide 4 */}
           <h2>Order</h2>
@@ -31,10 +30,7 @@ export default function Home() {
 
       </main>
 
-      <footer className={styles.footer}>
-        {/* slide 5 */}
-        <h2>Footer</h2>
-      </footer>
+      <Footer />
     </div>
   )
 }
