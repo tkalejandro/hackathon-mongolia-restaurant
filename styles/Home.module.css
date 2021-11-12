@@ -52,11 +52,11 @@
 }
 
 /*TABLET*/
-@media (min-width: 780px) {
+@media (min-width: 768px) {
   
 }
 
 /*LAPTOP AND MORE*/
-@media (min-width: 1080px) {
+@media (min-width: 1024px) {
   
 }
