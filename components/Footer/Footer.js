@@ -1,5 +1,5 @@
-import { restaurantInfo } from "../public/Data/restaurantInfo"
-import styles from '../styles/Home.module.css'
+import { restaurantInfo } from "../../public/Data/restaurantInfo"
+import styles from './Footer.module.css'
 
 const Footer = () => {
     // Restaurant Info Data it will be looping automatic

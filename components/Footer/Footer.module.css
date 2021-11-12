@@ -1,0 +1,22 @@
+.footer {
+    /*some CSS*/
+    width: 100vw;
+    height: 100vh;
+    background: lightblue;
+  }
+  
+  /*SMALL PHONES*/
+  @media (min-width: 480px) {
+    
+  }
+  
+  /*TABLET*/
+  @media (min-width: 768px) {
+    
+  }
+  
+  /*LAPTOP AND MORE*/
+  @media (min-width: 1024px) {
+    
+  }
+  

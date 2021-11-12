@@ -98,37 +98,12 @@ font-style: italic;
   /* text-shadow:  -3px 4px black; */
   color:transparent;
 }
-.menuContainer {
-  
-  /*some CSS*/
-  background: cadetblue;
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
-.menuSetContainer{
-  border: 1px solid black;
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-}
-.menuCard {
-  border: 1px solid black;
 
-}
 .orderContainer {
   /*some CSS*/
 }
 
-.footer {
-  /*some CSS*/
-  width: 100vw;
-  height: 100vh;
-  background: lightblue;
-}
+
 
 /*SMALL PHONES*/
 @media (min-width: 480px) {
