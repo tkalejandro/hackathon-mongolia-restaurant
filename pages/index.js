@@ -12,10 +12,19 @@ export default function Home() {
       </Head>
 
       <header>
-         {/* slide 1 */}
-         <h1>TITLE</h1>
+         {/*imageLogo+Nav  */}
+         
       </header>
       <main className={styles.main}>
+      <section className={styles.titleContainer}>
+          {/* slide 1 */}
+          <div className={styles.titleDiv}>
+          <h1>STIR IT UP!</h1> 
+          
+        <div className={styles.underline}>_________________________</div>
+        <p> Mongolian BBQ Restaurant!</p>
+        </div>
+        </section>
         <section className={styles.aboutContainer}>
           {/* slide 2 */}
           <h2>About</h2>

@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&family=Open+Sans:ital,wght@1,800&display=swap');
 .container {
-  padding: 0 2rem;
+  padding: 0 ;
 }
 
 .main {
@@ -11,6 +12,45 @@
   justify-content: center;
   align-items: center;
   */
+}
+.titleDiv{
+  position: absolute;
+  left:10%;
+  top:20%;
+  
+}
+
+.underline{
+  font-size: 3em;
+  text-decoration:rgb(177, 121, 18) wavy underline;
+  /* text-shadow:  -3px 4px black; */
+  color:transparent;
+}
+
+.titleContainer{
+width:100vw;
+height:100vh;
+position:relative;
+background: url("../images/landingImage.jpg") center/cover no-repeat;
+/* text-decoration:orange wavy underline;  */
+}
+
+.titleContainer h1{
+  color:rgb(247, 184, 68);  
+  font-style: italic;
+  font-family:"Open Sans";
+  font-size:7em;
+  text-shadow: -3px 4px black;
+
+}
+
+.titleContainer p{
+  color:rgb(247, 184, 68);
+margin-top: 1.5em;
+font-size: 3em;
+font-family: Arapey;
+font-style: italic;
+
 }
 .aboutContainer {
   /*some CSS*/
