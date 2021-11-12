@@ -2,7 +2,7 @@
 import styles from './Menu.module.css'
 import Image from 'next/image'
 import img1 from "../../images/mongoliabbq.jpeg"
-import img2 from "../../images/menuBG.jpg"
+import menuBackground from "../../images/menuBG.jpg"
 
 import { restaurantMenu } from '../../public/Data/restaurantMenu'
 
@@ -16,6 +16,7 @@ const Menu = () => {
                 <Image
                     src={img1}
                     alt={menu.title}
+                    
                 />
                 <div className={styles.cardInfoContainer}>
                     <h3 className={styles.cardTitle}>{menu.title}</h3>
@@ -34,11 +35,19 @@ const Menu = () => {
     return (
         <section className={styles.menuContainer}>
             {/* slide 3 */}
-        
-            <Image
-                    src={img2}
-                    className={styles.bgImage}
-                />
+            {/* This is working somehow! xD
+                This is a good example of how to make background
+                Make sure to use the same as this.
+                And same in the css.
+                THE PARENT MUST BE POSITION RELATIVE.
+             */}
+            <Image 
+            className={styles.bgImage}
+            src={menuBackground}
+            alt="Menu Background"
+            layout="fill"
+            
+          />
             
             <h2>Menu</h2>
             <div className={styles.underline}>_____________________</div>
