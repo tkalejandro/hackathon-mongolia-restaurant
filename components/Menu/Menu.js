@@ -49,7 +49,7 @@ const Menu = () => {
             
           />
             
-            <h2>Menu</h2>
+            <h2 className={styles.title}>Menu</h2>
             <div className={styles.underline}>_____________________</div>
             <div className={styles.menuSetContainer}>
                 {content}

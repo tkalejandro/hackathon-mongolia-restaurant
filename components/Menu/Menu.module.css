@@ -25,10 +25,14 @@
   font-family: "Open Sans";
   padding-top: 1em;
 }
+.title{
+  z-index: 1;
+}
 .underline {
   font-size: 1em;
   text-decoration: black wavy underline;
   color: transparent;
+  z-index: 1;
 }
 .subTitle {
   font-weight: 800;
