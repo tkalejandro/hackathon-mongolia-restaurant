@@ -30,13 +30,13 @@ const orderNow = (props) => {
     console.log("Current Order", props.order)
     return (
         <>
-            <h1>Order Now</h1>
-            <section>
+            <h1 className="orderHiddenH1">Order Now</h1>
+            <section className="backgroundContainer">
                 <SelectMenu
                     order={props.order}
                     setOrder={props.setOrder}
                 />
-                <SelectSauce
+                {/* <SelectSauce
                     order={props.order}
                     setOrder={props.setOrder}
                 />
@@ -56,7 +56,7 @@ const orderNow = (props) => {
                 />
                 <SelectPayment />
                 <OrderConfirmation />
-                <OrdersQueue />
+                <OrdersQueue /> */}
             </section>
         </>
     )
