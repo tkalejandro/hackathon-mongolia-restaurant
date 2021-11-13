@@ -22,11 +22,11 @@ section{
 }
 
 .backgroundContainer{
-  background: hsla(33, 17%, 63%, 0.733);
+  background: hsla(32, 17%, 63%, 0.349);
 }
 
 .orderHiddenH1{
 color:transparent;
-background: hsla(33, 17%, 63%, 0.733);
+background: hsla(32, 17%, 63%, 0.349);
 
 }

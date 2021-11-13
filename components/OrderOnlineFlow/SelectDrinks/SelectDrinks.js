@@ -51,11 +51,11 @@ export const SelectDrinks = (props) => {
         return (
             <div key={index}  className={styles.menuCard} >
 
-                {/*<Image
+                {/* <Image
                     src={img1}
                     alt={menu.title}
 
-                />*/}
+                /> */}
                 <div className={styles.cardInfoContainer}>
                     <h3 className={styles.cardTitle}>{menu.title}</h3>
 
@@ -71,7 +71,7 @@ export const SelectDrinks = (props) => {
     return (
         <section className={styles.menuContainer}>
 
-            <h2 className={styles.title}>Select Drinks</h2>
+            <h2 className={styles.title}>Drinks</h2>
             <div className={styles.underline}>_____________________</div>
             <div className={styles.menuSetContainer}>
                 {content}

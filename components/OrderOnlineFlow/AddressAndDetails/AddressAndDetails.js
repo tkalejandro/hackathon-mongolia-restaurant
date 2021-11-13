@@ -4,7 +4,7 @@ import styles from "./AddressAndDetails.module.css"
 
 export const AddressAndDetails = (props) => {
     const detectChange = (event) => {
-        switch (event.target.name){
+        switch (event.target.name) {
             case "fullName":
                 props.setFullName(event.target.value)
                 break;
@@ -17,7 +17,7 @@ export const AddressAndDetails = (props) => {
             default:
                 break;
         }
-        
+
     }
     const preOrder = (event) => {
         event.preventDefault()
@@ -32,60 +32,60 @@ export const AddressAndDetails = (props) => {
         console.log(userPreOrder)
     }
 
-    
+
     return (
         <div>
-            <h2>Address and Details</h2>
+            <h2 className={styles.title}>Address and Details</h2>
             <div className={styles.underline}>_____________________</div>
-            <form onSubmit={preOrder}>
+            <form className={styles.formContainer} onSubmit={preOrder}>
                 <div>
-                    <label htmlFor="fullName">Full name:</label>
-                    <input 
-                    id="fullName" 
-                    name="fullName" 
-                    type="text" 
-                    placeholder="Alex Smith" 
-                    onChange={detectChange}
-                    value={props.fullName}
-                    required
-                     />
+                    <label htmlFor="fullName">Full name</label>
+                    <input
+                        id="fullName"
+                        name="fullName"
+                        type="text"
+                        placeholder="Your Full Name"
+                        onChange={detectChange}
+                        value={props.fullName}
+                        required
+                    />
                 </div>
                 <div>
-                    <label htmlFor="email">Email:</label>
-                    <input 
-                    id="email" 
-                    name="email" 
-                    type="email" 
-                    placeholder="alex.smith@gmail.de" 
-                    onChange={detectChange}
-                    value={props.email}
-                    required />
+                    <label htmlFor="email">Email</label>
+                    <input
+                        id="email"
+                        name="email"
+                        type="email"
+                        placeholder="yourEmail@gmail.de"
+                        onChange={detectChange}
+                        value={props.email}
+                        required />
                 </div>
                 <div>
                     <label htmlFor="city">City</label>
-                    <input 
-                    id="city" 
-                    name="city" 
-                    type="text" 
-                    value="Berlin"
-                    onChange={detectChange} 
-                    
-                    disable="true"/>
+                    <input
+                        id="city"
+                        name="city"
+                        type="text"
+                        value="12345 Berlin"
+                        onChange={detectChange}
+
+                        disable="true" />
                 </div>
                 <div>
                     <label htmlFor="address">Address</label>
-                    <input 
-                    id="address" 
-                    name="address" 
-                    type="text" 
-                    placeholder="Mozart Straße 123" 
-                    onChange={detectChange} 
-                    value={props.address}
-                    required />
+                    <input
+                        id="address"
+                        name="address"
+                        type="text"
+                        placeholder="Mozart Straße 123"
+                        onChange={detectChange}
+                        value={props.address}
+                        required />
                 </div>
-                
 
-                <button>Review & Payment</button>
+
+                <button className={styles.confirmButton}>Confirm</button>
 
 
 

@@ -36,7 +36,7 @@ const orderNow = (props) => {
                     order={props.order}
                     setOrder={props.setOrder}
                 />
-                {/* <SelectSauce
+                <SelectSauce
                     order={props.order}
                     setOrder={props.setOrder}
                 />
@@ -56,7 +56,7 @@ const orderNow = (props) => {
                 />
                 <SelectPayment />
                 <OrderConfirmation />
-                <OrdersQueue /> */}
+                <OrdersQueue />
             </section>
         </>
     )
