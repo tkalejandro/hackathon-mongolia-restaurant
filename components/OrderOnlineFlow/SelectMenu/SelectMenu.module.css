@@ -1,0 +1,84 @@
+.title {
+  font-style: italic;
+  font-size: 2.7em;
+  font-family: "Open Sans";
+  text-align: center;
+}
+.underline {
+  font-size: 1.2em;
+  text-align: center;
+  text-decoration: black wavy underline;
+  color: transparent;
+}
+
+.menuContainer {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding:  20px 0;
+  position: relative;
+}
+.menuSetContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.menuCard {
+  width: 100%;
+  text-align: center;
+  margin: 10px auto;
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.726);
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 20px -3px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+
+.cardTitle {
+  padding: 10px 0;
+  font-family: "Open Sans";
+  font-style: italic;
+}
+
+.subTitle {
+  font-weight: 800;
+  display: block;
+  margin-bottom: 1em;
+}
+
+.cardButton {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  color: rgb(0, 0, 0);
+  font-size: 1em;
+  margin: 10px auto;
+  box-shadow: 0 5px 20px -3px rgba(0, 0, 0, 0.25);
+}
+
+@media (min-width: 480px) {
+}
+
+/*TABLET*/
+@media (min-width: 768px) {
+  .menuCard {
+    width: 46%;
+  }
+}
+
+/*LAPTOP AND MORE*/
+@media (min-width: 1024px) {
+  .menuCard {
+    width: 22%;
+  }
+}

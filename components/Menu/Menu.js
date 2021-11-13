@@ -27,7 +27,7 @@ const Menu = () => {
                     <p>{menu.veggies}</p>
                     <div className={styles.price} >{menu.price}</div>
                 </div>
-                <button className={styles.cardButton}>YES</button>
+                <button className={styles.cardButton}>Select</button>
             </div>
         )
     })

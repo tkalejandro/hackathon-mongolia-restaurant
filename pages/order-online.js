@@ -13,9 +13,14 @@ const orderNow = (props) => {
     console.log("Current Order", props.order)
     return (
         <>
+<<<<<<< HEAD
             <h1>Order Now</h1>
             <section>
 
+=======
+            <h1 className="orderHiddenH1">Order Now</h1>
+            <section className="backgroundContainer">
+>>>>>>> 677f568ed2fb1887f930be452e1a1af6569be5f8
                 <SelectMenu
                     order={props.order}
                     setOrder={props.setOrder}

@@ -71,7 +71,7 @@ export const SelectSauce = (props) => {
     return (
         <section className={styles.menuContainer}>
 
-            <h2 className={styles.title}>Select Sauce</h2>
+            <h2 className={styles.title}>Sauces</h2>
             <div className={styles.underline}>_____________________</div>
             <div className={styles.menuSetContainer}>
                 {content}
