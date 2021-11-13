@@ -7,9 +7,11 @@ export const SelectMenu = (props) => {
     const selectedMenu = (event) => {
 
         let currentOrder = props.order
-
+        let currentStep = props.currentStep
+        props.setCurrentStep(currentStep + 1)
+        
         switch (event.target.id) {
-
+            
             case "0":
                 let addMenu1 = {
                     title: restaurantMenu[event.target.id].title,

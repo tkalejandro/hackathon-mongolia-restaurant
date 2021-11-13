@@ -6,6 +6,7 @@ function MyApp({ Component, pageProps }) {
   //BOOLEAN
   const [userSelectMenu, setUserSelectMenu] = useState(false)
   const [userInQueue, setUserInQueue] = useState(false)
+  
   //FORM
   const [fullName, setFullName] = useState("")
   const [email, setEmail] = useState("")
@@ -16,6 +17,7 @@ function MyApp({ Component, pageProps }) {
   const [orderNumber, setOrderNumber] = useState("")
 
   //CURRENT USER:
+  const [currentStep, setCurrentStep] = useState(0)
   const [currentUser, setCurrentUser] = useState({
     order: [],
     fullName: "",
@@ -54,6 +56,8 @@ function MyApp({ Component, pageProps }) {
         setOrderNumber={setOrderNumber}
         currentUser={currentUser}
         setCurrentUser={setCurrentUser}
+        currentStep={currentStep}
+        setCurrentStep={setCurrentStep}
       />
     </Layout>
   )

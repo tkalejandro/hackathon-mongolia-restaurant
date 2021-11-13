@@ -7,6 +7,11 @@ export const SelectPayment = (props) => {
     console.log("Data", data.order)
     let contentList = "Not Order"
     let grandTotal = 0
+
+    const nextPage = () => {
+        let currentStep = props.currentStep
+        props.setCurrentStep(currentStep + 1)
+    }
     
     if(data.order.length !== 0) {
         //Generate The Order ID
@@ -34,8 +39,8 @@ export const SelectPayment = (props) => {
                 <span>{grandTotal}</span>
             </div>
             <div>
-                <button>PayPal</button>
-                <button>Cash</button>
+                <button onClick={nextPage}>PayPal</button>
+                <button onClick={nextPage}>Cash</button>
             </div>
         </div>
     )

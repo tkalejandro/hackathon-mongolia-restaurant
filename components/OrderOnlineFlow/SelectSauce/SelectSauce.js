@@ -7,7 +7,8 @@ export const SelectSauce = (props) => {
     
     const selectedSauce = (event) => {
         let currentOrder = props.order
-        
+        let currentStep = props.currentStep
+        props.setCurrentStep(currentStep + 1)
         switch (event.target.id) {
             
             case "0":

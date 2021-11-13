@@ -7,6 +7,8 @@ export const SelectDrinks = (props) => {
     
     const selectedDrink = (event) => {
         let currentOrder = props.order
+        let currentStep = props.currentStep
+        props.setCurrentStep(currentStep + 1)
         
         switch (event.target.id) {
             

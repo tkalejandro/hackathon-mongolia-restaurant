@@ -24,7 +24,8 @@ export const AddressAndDetails = (props) => {
     }
     const preOrder = (event) => {
         event.preventDefault()
-
+        let currentStep = props.currentStep
+        props.setCurrentStep(currentStep + 1)
         let userPreOrder = {
             order: props.order,
             fullName: props.fullName,
