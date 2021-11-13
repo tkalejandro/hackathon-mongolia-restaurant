@@ -2,7 +2,7 @@
 import styles from './Menu.module.css'
 import Image from 'next/image'
 import img1 from "../../images/mongoliabbq.jpeg"
-import menuBackground from "../../images/menuBG.jpg"
+import menuBackground from "../../images/foodMarket.jpg"
 
 import { restaurantMenu } from '../../public/Data/restaurantMenu'
 
@@ -25,7 +25,7 @@ const Menu = () => {
                     <p>{menu.protein}</p>
                     <span>+</span>
                     <p>{menu.veggies}</p>
-                    <div>{menu.price}</div>
+                    <div className={styles.price} >{menu.price}</div>
                 </div>
                 <button className={styles.cardButton}>YES</button>
             </div>
