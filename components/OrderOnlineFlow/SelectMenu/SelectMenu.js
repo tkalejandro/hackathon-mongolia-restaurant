@@ -5,8 +5,7 @@ import img1 from "../../../images/mongoliabbq.jpeg"
 export const SelectMenu = (props) => {
 
     const selectedMenu = (event) => {
-        console.log(event.target.id)
-        console.log(typeof event.target.id)
+
         let currentOrder = props.order
         
         switch (event.target.id) {
@@ -70,7 +69,7 @@ export const SelectMenu = (props) => {
             </div>
         )
     })
-    console.log("User Orders:", props.order)
+
     return (
         <section className={styles.menuContainer}>
 

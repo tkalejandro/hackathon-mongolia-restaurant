@@ -6,8 +6,6 @@ import {restaurantSauce} from "../../../public/Data/restaurantSauce.js"
 export const SelectSauce = (props) => {
     
     const selectedSauce = (event) => {
-        console.log(event.target.id)
-        console.log(typeof event.target.id)
         let currentOrder = props.order
         
         switch (event.target.id) {
@@ -70,7 +68,6 @@ export const SelectSauce = (props) => {
             </div>
         )
     })
-    console.log("User Orders:", props.order)
     return (
         <section className={styles.menuContainer}>
 

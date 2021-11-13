@@ -27,30 +27,37 @@ const orderNow = (props) => {
     */
     let userSelectMenu = props.userSelectMenu
     console.log("Current User", props.currentUser)
-    return(
+    console.log("Current Order", props.order)
+    return (
         <>
-        <h1>Order Now</h1>
-        <section>
-            <SelectMenu 
-                currentUser={props.currentUser}
-                order={props.order}
-                setOrder={props.setOrder}
-            />
-            <SelectSauce 
-                currentUser={props.currentUser}
-                order={props.order}
-                setOrder={props.setOrder}
-            />
-            <SelectDrinks 
-                currentUser={props.currentUser}
-                order={props.order}
-                setOrder={props.setOrder}
-            />
-            <AddressAndDetails />
-            <SelectPayment />
-            <OrderConfirmation />
-            <OrdersQueue />
-        </section>
+            <h1>Order Now</h1>
+            <section>
+                <SelectMenu
+                    order={props.order}
+                    setOrder={props.setOrder}
+                />
+                <SelectSauce
+                    order={props.order}
+                    setOrder={props.setOrder}
+                />
+                <SelectDrinks
+                    order={props.order}
+                    setOrder={props.setOrder}
+                />
+                <AddressAndDetails
+                    currentUser={props.currentUser}
+                    fullName={props.fullName}
+                    setFullName={props.setFullName}
+                    email={props.email}
+                    setEmail={props.setEmail}
+                    address={props.address}
+                    setAddress={props.setAddress}
+                    order={props.order}
+                />
+                <SelectPayment />
+                <OrderConfirmation />
+                <OrdersQueue />
+            </section>
         </>
     )
 }

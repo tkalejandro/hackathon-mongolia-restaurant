@@ -6,8 +6,6 @@ import { restaurantDrink } from "../../../public/Data/restaurantDrink"
 export const SelectDrinks = (props) => {
     
     const selectedDrink = (event) => {
-        console.log(event.target.id)
-        console.log(typeof event.target.id)
         let currentOrder = props.order
         
         switch (event.target.id) {
@@ -70,7 +68,6 @@ export const SelectDrinks = (props) => {
             </div>
         )
     })
-    console.log("User Orders:", props.order)
     return (
         <section className={styles.menuContainer}>
 

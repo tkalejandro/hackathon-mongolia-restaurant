@@ -7,12 +7,12 @@ function MyApp({ Component, pageProps }) {
   const [userSelectMenu, setUserSelectMenu] = useState(false)
   const [userInQueue, setUserInQueue] = useState(false)
   //FORM
-  const [fullName, setFullName] = useState("Unknown user")
-  const [email, setEmail] = useState("Unknown email")
-  const [address, setAddress] = useState("Unknown address")
+  const [fullName, setFullName] = useState("")
+  const [email, setEmail] = useState("")
+  const [address, setAddress] = useState("")
 
   const [order, setOrder] = useState([])
-  const [orderNumber, setOrderNumber] = useState("Not Ordered")
+  const [orderNumber, setOrderNumber] = useState("")
 
   //CURRENT USER:
   const [currentUser, setCurrentUser] = useState({
