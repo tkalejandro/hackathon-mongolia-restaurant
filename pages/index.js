@@ -6,7 +6,9 @@ import Footer from '../components/Footer/Footer'
 import Menu from '../components/Menu/Menu'
 import styles from '../styles/Home.module.css'
 
-export default function Home() {
+export default function Home(props) {
+
+  console.log(props.data)
   return (
     <>
       <Head>
