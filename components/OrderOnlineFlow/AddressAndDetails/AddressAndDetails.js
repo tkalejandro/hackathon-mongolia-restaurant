@@ -43,40 +43,24 @@ export const AddressAndDetails = (props) => {
             <div className={styles.underline}>_____________________</div>
             <form className={styles.formContainer} onSubmit={preOrder}>
                 <div>
-<<<<<<< HEAD
-                    <label htmlFor="fullName">Full name:</label>
-=======
                     <label htmlFor="fullName">Full name</label>
->>>>>>> 677f568ed2fb1887f930be452e1a1af6569be5f8
                     <input
                         id="fullName"
                         name="fullName"
                         type="text"
-<<<<<<< HEAD
-                        placeholder="Alex Smith"
-=======
                         placeholder="Your Full Name"
->>>>>>> 677f568ed2fb1887f930be452e1a1af6569be5f8
                         onChange={detectChange}
                         value={props.fullName}
                         required
                     />
                 </div>
                 <div>
-<<<<<<< HEAD
-                    <label htmlFor="email">Email:</label>
-=======
                     <label htmlFor="email">Email</label>
->>>>>>> 677f568ed2fb1887f930be452e1a1af6569be5f8
                     <input
                         id="email"
                         name="email"
                         type="email"
-<<<<<<< HEAD
-                        placeholder="alex.smith@gmail.de"
-=======
                         placeholder="yourEmail@gmail.de"
->>>>>>> 677f568ed2fb1887f930be452e1a1af6569be5f8
                         onChange={detectChange}
                         value={props.email}
                         required />
@@ -87,14 +71,9 @@ export const AddressAndDetails = (props) => {
                         id="city"
                         name="city"
                         type="text"
-<<<<<<< HEAD
-                        value="Berlin"
-                        onChange={detectChange}
-=======
                         value="12345 Berlin"
                         onChange={detectChange}
 
->>>>>>> 677f568ed2fb1887f930be452e1a1af6569be5f8
                         disable="true" />
                 </div>
                 <div>
@@ -108,10 +87,6 @@ export const AddressAndDetails = (props) => {
                         value={props.address}
                         required />
                 </div>
-<<<<<<< HEAD
-
-=======
->>>>>>> 677f568ed2fb1887f930be452e1a1af6569be5f8
 
 
                 <button className={styles.confirmButton}>Confirm</button>
