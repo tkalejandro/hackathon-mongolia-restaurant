@@ -8,10 +8,14 @@
   color: transparent;
   margin-bottom: 1em;
 }
+.formContainer{
+  max-width:600px;
+  margin:0 auto;
 
+}
 .formContainer label,
 .formContainer input {
-  width: 90%;
+  width: 100%;
   display: block;
   margin: 0 auto;
   padding-top: 1em;
@@ -20,7 +24,7 @@
 }
 
 .formContainer input {
-  padding: 0.7em;
+  padding: 1em;
   margin-bottom: 0.7em;
   box-shadow: 0 5px 20px -3px rgba(0, 0, 0, 0.25);
   border: none;
@@ -28,7 +32,7 @@
 
 .confirmButton {
   display: block;
-  width: 100px;
+  min-width: 100px;
   height: 50px;
   background-color: rgb(255, 178, 13);
   border: none;
@@ -36,4 +40,21 @@
   font-size: 1em;
   margin: 30px auto;
   box-shadow: 0 5px 20px -3px rgba(0, 0, 0, 0.25);
+}
+
+@media (min-width: 480px) {
+}
+
+/*TABLET*/
+@media (min-width: 768px) {
+  .menuCard {
+    width: 46%;
+  }
+}
+
+/*LAPTOP AND MORE*/
+@media (min-width: 1024px) {
+  .menuCard {
+    width: 22%;
+  }
 }
