@@ -9,6 +9,7 @@ export const SelectPayment = (props) => {
     let grandTotal = 0
     
     if(data.order.length !== 0) {
+        //Generate The Order ID
         contentList = data.order.map((item, index) => {
             return(
                 <li key={index}>
@@ -20,7 +21,6 @@ export const SelectPayment = (props) => {
         })
         grandTotal = data.order.reduce((acc, crr) => acc + Number(crr.price), 0)
     }
-    
     
     return (
         <div>

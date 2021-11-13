@@ -1,6 +1,6 @@
 import '../styles/globals.css'
 import Layout from '../components/Layout/Layout'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 function MyApp({ Component, pageProps }) {
   
   //BOOLEAN
@@ -21,8 +21,17 @@ function MyApp({ Component, pageProps }) {
     fullName: "",
     email: "",
     city: "",
-    address: ""
+    address: "",
   })
+  //ID
+  const generateId = () => {
+    //4 digits
+    return `${Math.floor(Math.random() * 10)}${Math.floor(Math.random() * 10)}${Math.floor(Math.random() * 10)}${Math.floor(Math.random() * 10)}`
+}
+  useEffect(() => {
+    setOrderNumber(generateId)
+  }, [])
+  
   return (
     <Layout>
       <Component

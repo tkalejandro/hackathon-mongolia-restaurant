@@ -15,6 +15,7 @@ const orderNow = (props) => {
         <>
             <h1>Order Now</h1>
             <section>
+
                 <SelectMenu
                     order={props.order}
                     setOrder={props.setOrder}
@@ -39,10 +40,13 @@ const orderNow = (props) => {
                     order={props.order}
                     setCurrentUser={props.setCurrentUser}
                 />
-                <SelectPayment 
+                <SelectPayment
                     currentUser={props.currentUser}
                 />
-                <OrderConfirmation />
+                <OrderConfirmation
+                    orderNumber={props.orderNumber}
+                />
+
                 <OrdersQueue />
             </section>
         </>
