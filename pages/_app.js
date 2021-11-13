@@ -9,6 +9,7 @@ function MyApp({ Component, pageProps }) {
   //FORM
   const [fullName, setFullName] = useState("")
   const [email, setEmail] = useState("")
+  const [city, setCity] = useState("Berlin")
   const [address, setAddress] = useState("")
 
   const [order, setOrder] = useState([])
@@ -16,14 +17,11 @@ function MyApp({ Component, pageProps }) {
 
   //CURRENT USER:
   const [currentUser, setCurrentUser] = useState({
-    userSelectMenu: userSelectMenu,
-    userInQueue: userInQueue,
-    fullName: fullName,
-    email: email,
-    address: address,
-    order: order,
-    orderNumber: orderNumber
-
+    order: [],
+    fullName: "",
+    email: "",
+    city: "",
+    address: ""
   })
   return (
     <Layout>
@@ -37,6 +35,8 @@ function MyApp({ Component, pageProps }) {
         setFullName={setFullName}
         email={email}
         setEmail={setEmail}
+        city={city}
+        setCity={setCity}
         address={address}
         setAddress={setAddress}
         order={order}
@@ -44,6 +44,7 @@ function MyApp({ Component, pageProps }) {
         orderNumber={orderNumber}
         setOrderNumber={setOrderNumber}
         currentUser={currentUser}
+        setCurrentUser={setCurrentUser}
       />
     </Layout>
   )

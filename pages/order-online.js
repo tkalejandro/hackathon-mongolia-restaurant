@@ -8,23 +8,6 @@ import SelectSauce from "../components/OrderOnlineFlow/SelectSauce/SelectSauce"
 
 
 const orderNow = (props) => {
-    /*
-    userSelectMenu={userSelectMenu}
-        setUserSelectMenu={setUserSelectMenu}
-        userInQueue={userInQueue}
-        setUserInQueue={setUserInQueue}
-        fullName={fullName}
-        setFullName={setFullName}
-        email={email}
-        setEmail={setEmail}
-        address={address}
-        setAddress={setAddress}
-        order={order}
-        setOrder={setOrder}
-        orderNumber={orderNumber}
-        setOrderNumber={setOrderNumber}
-        currentUser={currentUser}
-    */
     let userSelectMenu = props.userSelectMenu
     console.log("Current User", props.currentUser)
     console.log("Current Order", props.order)
@@ -45,16 +28,20 @@ const orderNow = (props) => {
                     setOrder={props.setOrder}
                 />
                 <AddressAndDetails
-                    currentUser={props.currentUser}
                     fullName={props.fullName}
                     setFullName={props.setFullName}
                     email={props.email}
                     setEmail={props.setEmail}
+                    city={props.city}
+                    setCity={props.setCity}
                     address={props.address}
                     setAddress={props.setAddress}
                     order={props.order}
+                    setCurrentUser={props.setCurrentUser}
                 />
-                <SelectPayment />
+                <SelectPayment 
+                    currentUser={props.currentUser}
+                />
                 <OrderConfirmation />
                 <OrdersQueue />
             </section>
