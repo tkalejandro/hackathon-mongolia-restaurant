@@ -41,13 +41,13 @@ const Menu = () => {
                 And same in the css.
                 THE PARENT MUST BE POSITION RELATIVE.
              */}
-            <Image 
+            {/* <Image 
             className={styles.bgImage}
             src={menuBackground}
             alt="Menu Background"
             layout="fill"
             
-          />
+          /> */}
             
             <h2>Menu</h2>
             <div className={styles.underline}>_____________________</div>

@@ -24,12 +24,20 @@ const AboutUs = () => {
             <h2>ABOUT US</h2>
             <div className={styles.underline2}>____________________</div>
 
-            <p>Based of the traditional recepie by Wu Zhaonan
-              Stir it Up! Mongolian Barbecue combines a selection of marinated meats and vegetables which are then stir fried.</p>
-            <p>Just like Wu Zhaonan who had to flee his native China we pride ourself In hiring Refugees</p>
-            <p>Just like Wu Zhaonan who had to flee his native China we pride ourself In hiring Refugees</p>
-            <p>Just like Wu Zhaonan who had to flee his native China we pride ourself In hiring Refugees</p>
-            <p>Just like Wu Zhaonan who had to flee his native China we pride ourself In hiring Refugees</p>
+            <p>We welcome you to <strong>Stir it Up!</strong>
+</p>
+            <p><strong>Our Mongolian BBQ</strong> is based on the traditional recipe by Wu Zhaonan.
+</p>
+            <p>We will prepare for you marinated meats combined with fresh vegetables stir fried over a giant fring pan.</p>
+            <p>Mongolian BBQ is not only a <strong>delicious food</strong> but has a big History behind it. </p>
+            <p>Wu Zhaonan had to leave China because of repressive Politics. He, as a refugee, found hope and Community in selling Mongolian BBQ. 
+</p>
+<p> <strong>Our mission</strong> is not only to deliver you delicious food, but also to follow his steps and give hope to refugees. 
+
+</p>
+<p>If you are more interested in our Philosophy you can click here.  
+
+</p>
 
           </article>
  

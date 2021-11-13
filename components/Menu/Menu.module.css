@@ -2,7 +2,7 @@
 
 .menuContainer {
   /*some CSS*/
-  background: rgb(217, 254, 255);
+  background: #806f5abb;
   width: 100vw;
   min-height: 100vh;
   display: flex;
