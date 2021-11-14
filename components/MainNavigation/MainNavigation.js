@@ -13,7 +13,7 @@ const MainNavigation = () => {
                 <Image
                     src={logoBlack}
                     alt="Logo"
-                    className={styles.logoOrange}
+                    className={styles.logoBlack}
                 /></div>
                 <nav className={styles.mainNav}>
                     <ul className={styles.mainNavList}>

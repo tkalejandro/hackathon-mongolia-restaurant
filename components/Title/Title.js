@@ -30,17 +30,17 @@ const Title = () => {
           className={styles.logoImage}
         />
       </div>
-
-      <div className={styles.secondImageContainer}>
+   
+      {/* <div className={styles.secondImageContainer}>
         <div className={styles.image}>
-          {/* <Image
+          <Image
           src={}
           alt="Logo"
           className={styles.logoWhite}
 
-        /> */}
+        />
         </div>
-      </div>
+      </div> */}
 
     </section>
   )
