@@ -15,6 +15,7 @@
 }
 
 .dataBox {
+  width: 48%;
   max-width: 400px;
   max-height: 300px;
   margin: 1%;
@@ -107,7 +108,7 @@
 /*LAPTOP AND MORE*/
 @media (min-width: 1024px) {
   .dataBox {
-    width: 22%;
+    width: 12%;
   }
 
   .title {
