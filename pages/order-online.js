@@ -80,7 +80,7 @@ const orderNow = (props) => {
                     {
                         currentStep === 0 || currentStep === 5 || currentStep === 6
                             ? <></>
-                            : <> <button onClick={goBack}>Return</button> <button onClick={cancelOrder}>Cancel Order</button></>
+                            : <div className="containerButtons"><button id="returnButton" onClick={goBack}> ⬅ RETURN</button> <button id="cancelButton" onClick={cancelOrder}>CANCEL</button></div>
                     }
                 </div>
             </section>

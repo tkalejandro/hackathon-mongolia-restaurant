@@ -64,7 +64,7 @@ export const OrdersQueue = (props) => {
 
 
     return (
-        <div>
+        <div className={styles.background}>
             <h2 className={styles.title}>Where is my order</h2>
             <div className={styles.underline}>_____________________</div>
             <div className={styles.orderContainer}>

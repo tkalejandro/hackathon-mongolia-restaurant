@@ -1,3 +1,9 @@
+.background{
+  background: hsla(32, 17%, 63%, 0.349);
+
+  padding-bottom:2em;
+}
+
 .title {
   padding-top: 2.5em;
   font-style: italic;
