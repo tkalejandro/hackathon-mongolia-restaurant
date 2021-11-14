@@ -82,6 +82,14 @@ opacity: 0.5;
   box-shadow: 0 5px 25px -3px rgba(0, 0, 0, 0.25);
 }
 
+.cardButton:hover{
+  box-shadow:0 5px 10px -3px rgba(0, 0, 0, 0.25);
+
+}
+
+.cardButton:active{
+  box-shadow:inset 2px 1px 5px rgba(82, 82, 82, 0.664);
+}
 .price{
   font-weight: 800;
   padding-top:1em;

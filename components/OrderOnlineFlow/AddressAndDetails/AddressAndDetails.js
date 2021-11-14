@@ -40,7 +40,7 @@ export const AddressAndDetails = (props) => {
 
     return (
         <div>
-            <h2 className={styles.title}>Address and Details</h2>
+            <h2 className={styles.title}>Contact Details</h2>
             <div className={styles.underline}>_____________________</div>
             <form className={styles.formContainer} onSubmit={preOrder}>
                 <div>
