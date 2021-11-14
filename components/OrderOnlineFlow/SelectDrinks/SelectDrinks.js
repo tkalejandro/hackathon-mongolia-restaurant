@@ -1,10 +1,12 @@
 import styles from "./SelectDrinks.module.css"
 import { restaurantDrink } from "../../../public/Data/restaurantDrink"
-
+import { useEffect } from "react"
 
 
 export const SelectDrinks = (props) => {
-    
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     const selectedDrink = (event) => {
         let currentOrder = props.order
         let currentStep = props.currentStep

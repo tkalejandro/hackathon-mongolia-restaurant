@@ -1,8 +1,11 @@
 import styles from "./OrderConfirmation.module.css"
-
+import { useEffect } from "react"
 
 
 export const OrderConfirmation = (props) => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     const nextPage = () => {
         let currentStep = props.currentStep
         props.setCurrentStep(currentStep + 1)

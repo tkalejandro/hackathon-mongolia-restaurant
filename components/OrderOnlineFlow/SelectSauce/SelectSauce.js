@@ -1,9 +1,11 @@
 import styles from "./SelectSauce.module.css"
 import {restaurantSauce} from "../../../public/Data/restaurantSauce.js"
-
-
+import { useEffect } from "react"
 
 export const SelectSauce = (props) => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     
     const selectedSauce = (event) => {
         let currentOrder = props.order

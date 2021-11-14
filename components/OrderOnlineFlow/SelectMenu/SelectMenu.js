@@ -1,8 +1,10 @@
 import styles from "./SelectMenu.module.css"
 import { restaurantMenu } from "../../../public/Data/restaurantMenu.js"
-import Image from "next/image"
-import img1 from "../../../public/images/mongoliabbq.jpeg"
+import { useEffect } from "react"
 export const SelectMenu = (props) => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
 
     const selectedMenu = (event) => {
 

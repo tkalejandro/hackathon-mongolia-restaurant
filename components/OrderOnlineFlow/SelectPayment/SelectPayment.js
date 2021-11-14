@@ -1,8 +1,10 @@
 import styles from "./SelectPayment.module.css"
-
-
+import { useEffect } from "react"
 
 export const SelectPayment = (props) => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     let data = props.currentUser
     console.log("Data", data.order)
     let contentList = "Not Order"

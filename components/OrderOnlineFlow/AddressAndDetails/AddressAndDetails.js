@@ -1,8 +1,11 @@
 import styles from "./AddressAndDetails.module.css"
-
+import { useEffect } from "react"
 
 
 export const AddressAndDetails = (props) => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     const detectChange = (event) => {
         switch (event.target.name) {
             case "fullName":

@@ -4,6 +4,9 @@ import { useEffect, useState } from "react";
 
 
 export const OrdersQueue = (props) => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     
 
 

@@ -10,6 +10,7 @@ body {
   margin: 0;
   font-family: 'Arapey', serif;
   font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
 }
 
 a {

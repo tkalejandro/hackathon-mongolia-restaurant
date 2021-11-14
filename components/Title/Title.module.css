@@ -48,9 +48,12 @@
   z-index: -3;
 }
 .mongoliaBbq{
+
+  max-width: 600px;
   position: relative;
   top: -140px;
   left: 0;
+  background: black;
 }
 
 /*SMALL PHONES*/
