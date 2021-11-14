@@ -45,7 +45,7 @@
   width: 100%;
   text-align: center;
   margin: 10px 0;
-  /* padding: 10px 0; */
+  padding-bottom: 15px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
