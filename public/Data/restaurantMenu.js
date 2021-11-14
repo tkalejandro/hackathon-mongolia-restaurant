@@ -1,5 +1,3 @@
-
-
 export const restaurantMenu = [
     {
         img:"../images/menu1.jpg", 
