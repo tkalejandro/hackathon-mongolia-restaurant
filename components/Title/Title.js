@@ -1,8 +1,9 @@
 import styles from './Title.module.css'
 import Image from "next/image"
-import landingImage from "../../public/images/landingImage.jpg"
+import landingImage from "../../public/images/landingImage.png"
+import landingImageBig from "../../public/images/landingImageBig.jpeg"
 import logoImage from "../../public/images/StirItUp.png"
-import logoWhite from "../../public/images/logoWhite.png"
+import logoOrange from "../../public/images/logoOrange.png"
 import logoBlack from "../../public/images/logoBlack.png"
 
 
@@ -10,33 +11,33 @@ const Title = () => {
 
   return (
     <section className={styles.titleContainer}>
-      <Image 
-            src={landingImage}
-            alt="Landing Page Stir It Up"
-            layout="fill"
-            className={styles.bgImage}
-            
-          />
+      <Image
+        src={landingImage}
+        alt="Landing Page"
+        layout="fill"
+        className={styles.bgImage}
+ 
+      />
       {/* slide 1 */}
 
       <h1 >STIR IT UP!</h1>
-      <div className={styles.baconContainer}>
+      <div className={styles.imageContainer}>
         <Image
           src={logoImage}
           alt="Logo"
           className={styles.logoImage}
         />
       </div>
-      <p className={styles.mongoliaBbq}> Mongolian BBQ Restaurant!</p>
-      
-      <div className={styles.circleLogo}>
-        <div className={styles.circle}></div>
-        <Image
-          src={logoWhite}
+
+      <div className={styles.secondImageContainer}>
+        <div className={styles.image}>
+          {/* <Image
+          src={}
           alt="Logo"
           className={styles.logoWhite}
 
-        />
+        /> */}
+        </div>
       </div>
 
     </section>

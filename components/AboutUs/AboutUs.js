@@ -1,6 +1,8 @@
 import styles from './AboutUs.module.css'
 import Image from 'next/image'
 import faceOne from '../../public/images/aboutImage.jpg'
+import faceTwo from '../../public/images/grill.jpg'
+import faceThree from '../../public/images/hand.jpeg'
 
 const AboutUs = () => {
 
@@ -14,10 +16,10 @@ const AboutUs = () => {
 
       </div>
       <article>
-        <h2>ABOUT US</h2>
+        <h2 className={styles.title}>ABOUT US</h2>
         <div className={styles.underline}>____________________</div>
         <div className={styles.roundImageContainer}>
-          <div className={styles.imageContainer1}>
+          <div className={styles.imageContainer}>
             <div>
               <Image
                 className={styles.faces}
@@ -30,11 +32,11 @@ const AboutUs = () => {
             </div>
             <p><strong>Our Mongolian BBQ</strong> is based on the traditional recipe by Wu Zhaonan.</p>
           </div>
-          <div className={styles.imageContainer2}>
+          <div className={styles.imageContainer}>
             <div>
               <Image
                 className={styles.faces}
-                src={faceOne}
+                src={faceTwo}
                 alt="picture of us"
                 width="150px"
                 height="150px"
@@ -44,11 +46,11 @@ const AboutUs = () => {
             <p>Mongolian BBQ is not only a <strong>delicious food</strong> but has a big History behind it. </p>
 
           </div>
-          <div className={styles.imageContainer3}>
+          <div className={styles.imageContainer}>
             <div>
               <Image
                 className={styles.faces}
-                src={faceOne}
+                src={faceThree}
                 alt="picture of us"
                 width="150px"
                 height="150px"
@@ -57,7 +59,7 @@ const AboutUs = () => {
             </div>
             <p>Wu Zhaonan had to leave China because of repressive Politics. He, as a refugee, found hope and Community in selling Mongolian BBQ.
             </p>
-            <p> <strong>Our mission</strong> is not only to deliver you delicious food, but also to follow his steps and give hope to refugees.
+            <p> <strong>Our mission</strong> is not only to deliver you delicious food, but also to follow his steps and give hope to victims of war.
 
             </p>
           </div>
