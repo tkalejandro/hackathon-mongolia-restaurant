@@ -1,7 +1,7 @@
 import styles from './AboutUs.module.css'
-import aboutImageTop from "../../images/veggi.jpg"
+import aboutImageTop from "../../public/images/veggi.jpg"
 import Image from 'next/image'
-import aboutImageBottom from "../../images/veggi.jpg"
+import aboutImageBottom from "../../public/images/veggi.jpg"
 
 const AboutUs = () => {
 

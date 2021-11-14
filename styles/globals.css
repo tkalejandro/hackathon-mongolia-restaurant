@@ -28,6 +28,9 @@ section{
 .backgroundContainer{
   background: hsla(32, 17%, 63%, 0.349);
 }
+main {
+  overflow: hidden;
+}
 
 .orderHiddenH1{
 color:transparent;

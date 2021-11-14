@@ -1,8 +1,8 @@
 
 import styles from './Menu.module.css'
 import Image from 'next/image'
-import img1 from "../../images/mongoliabbq.jpeg"
-import menuBackground from "../../images/foodMarket.jpg"
+import img1 from "../../public/images/mongoliabbq.jpeg"
+
 
 import { restaurantMenu } from '../../public/Data/restaurantMenu'
 
@@ -12,12 +12,13 @@ const Menu = () => {
     let content = restaurantMenu.map((menu, index) => {
         return (
             <div key={index} className={styles.menuCard}>
-
-                <Image
-                    src={img1}
+    
+                {/* <Image
+                    src={menu.img}
                     alt={menu.title}
                     
-                />
+                /> */}
+                <img src={menu.img} alt={menu.title}/>
                 <div className={styles.cardInfoContainer}>
                     <h3 className={styles.cardTitle}>{menu.title}</h3>
 

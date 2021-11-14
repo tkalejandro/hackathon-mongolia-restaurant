@@ -1,9 +1,9 @@
 import styles from './Title.module.css'
 import Image from "next/image"
-import landingImage from "../../images/landingImage.jpg"
-import logoImage from "../../images/StirItUp.png"
-import logoWhite from "../../images/logoWhite.png"
-import logoBlack from "../../images/logoBlack.png"
+import landingImage from "../../public/images/landingImage.jpg"
+import logoImage from "../../public/images/StirItUp.png"
+import logoWhite from "../../public/images/logoWhite.png"
+import logoBlack from "../../public/images/logoBlack.png"
 
 
 const Title = () => {

@@ -1,10 +1,11 @@
 
 import Link from "next/link"
 import styles from "./MainNavigation.module.css"
-import logoBlack from "../../images/logoBlack.png"
+import logoBlack from "../../public/images/logoBlack.png"
 import Image from "next/image"
 
 const MainNavigation = () => {
+    
     return (
         <header className={styles.header}>
             <div className={styles.navContainer}>

@@ -6,7 +6,11 @@
 }
 
 .baconContainer {
-
+  width: 330px;
+  position: relative;
+  left: -45px;
+  top:0
+  
 }
 .logoImage{
 

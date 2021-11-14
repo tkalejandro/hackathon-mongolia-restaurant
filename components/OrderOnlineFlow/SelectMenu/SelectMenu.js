@@ -1,7 +1,7 @@
 import styles from "./SelectMenu.module.css"
 import { restaurantMenu } from "../../../public/Data/restaurantMenu.js"
 import Image from "next/image"
-import img1 from "../../../images/mongoliabbq.jpeg"
+import img1 from "../../../public/images/mongoliabbq.jpeg"
 export const SelectMenu = (props) => {
 
     const selectedMenu = (event) => {
@@ -53,11 +53,12 @@ export const SelectMenu = (props) => {
         return (
             <div key={index} className={styles.menuCard} >
 
-                <Image
+                {/* <Image
                     src={img1}
                     alt={menu.title}
 
-                />
+                /> */}
+                <img src={menu.img} alt={menu.title}/>
                 <div className={styles.cardInfoContainer}>
                     <h3 className={styles.cardTitle}>{menu.title}</h3>
 
