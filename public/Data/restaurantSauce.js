@@ -1,33 +1,30 @@
-
-
 export const restaurantSauce = [
     {
         img:"https://steamykitchen.com/wp-content/uploads/2017/04/mongolian-bbq-recipe-1791.jpg", 
-        title: "Sauce 1",
+        title: "BBQ Xiu",
         subTitle: "🌶️", 
-        description: "150 grams of our seasoned beef, pork, lamb, turkey, chicken, and shrimp",
-        price: "9.99"
+        description: "Have a taste of our “secret recipe” BBQ sauce",
+        price: "0.99"
     },
     {
         img:"https://steamykitchen.com/wp-content/uploads/2017/04/mongolian-bbq-recipe-1791.jpg", 
-        title: "Sauce 2",
+        title: "Red hot chill Billie",
         subTitle: "🌶️🌶️", 
-        description: "150 grams of our seasoned beef, pork, lamb, turkey, chicken, and shrimp",
-        price: "9.99"
+        description: "If you like It hot this is the one for you"
     },
     {
         img:"https://steamykitchen.com/wp-content/uploads/2017/04/mongolian-bbq-recipe-1791.jpg", 
-        title: "Sauce 3",
-        subTitle: "🌶️🌶️🌶️", 
-        description: "150 grams of our seasoned beef, pork, lamb, turkey, chicken, and shrimp",
-        price: "9.99"
+        title: "The Sweet and sour Howard",
+        subTitle: "🐉", 
+        description: "Try our sweet and sour sauce straight from the food stalls of Beijing",
+        price: "0.99",
     },
     {
         img:"https://steamykitchen.com/wp-content/uploads/2017/04/mongolian-bbq-recipe-1791.jpg", 
-        title: "Sauce 4",
+        title: "Soja de la oya",
         subTitle: "🥑🥑", 
-        description: "150 grams of our seasoned beef, pork, lamb, turkey, chicken, and shrimp",
-        price: "9.99"
+        description: "you can’t go wrong with our Classic Soya sauce",
+        price: "0.99"
     },
     
     
