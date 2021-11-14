@@ -1,0 +1,121 @@
+.title {
+  padding-top: 1.9em;
+  font-style: italic;
+  font-size: 1.5em;
+  font-family: "Open Sans";
+  text-align: center;
+}
+.underline {
+  font-size: 1.2em;
+  text-align: center;
+  text-decoration: black wavy underline;
+  color: transparent;
+  margin-bottom: 1em;
+}
+.subtitle {
+  margin-top: 1em;
+}
+.orderContainer {
+  max-width: 600px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.726);
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 20px -3px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+
+.listContainer {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 0 1em;
+}
+
+.listItem {
+  width: 25%;
+  font-size: 0.9em;
+  margin-top: 1.8em;
+  text-align: center;
+}
+
+.listItem:nth-child(1) {
+  text-align: start;
+  font-weight: 600;
+  display: flex;
+  align-items: flex-start;
+}
+
+.price {
+  background-color: rgb(255, 0, 0);
+  color: white;
+  padding: 1em;
+  margin-top: 1em;
+  font-weight: 700;
+  border-radius: 0 0 0.25rem 0.25rem;
+}
+
+.buttonContainer {
+  padding-bottom: 2em;
+}
+
+.payButton {
+  display: block;
+  min-width: 100px;
+  height: 50px;
+  background-color: rgb(255, 178, 13);
+  border: none;
+  color: rgb(0, 0, 0);
+  font-size: 1em;
+  margin: 30px auto;
+  box-shadow: 0 5px 20px -3px rgba(0, 0, 0, 0.25);
+}
+.payButton:hover {
+  box-shadow: 0 5px 10px -3px rgba(0, 0, 0, 0.25);
+}
+.payButton:active {
+  box-shadow: inset 2px 1px 5px rgba(82, 82, 82, 0.664);
+}
+
+@media (min-width: 480px) {
+    .title {
+      padding-top:2.5em;
+    }
+    .buttonContainer {
+        padding-bottom: 2em;
+        display:flex;
+       
+      }
+  }
+  
+  /*TABLET*/
+  @media (min-width: 768px) {
+    .title {
+      font-size:2.5em;
+      padding-top:3.6em;
+    }
+    .underline {
+        font-size: 2.5em;
+      }
+      .orderContainer {
+        max-width: 600px;
+        margin:0 auto;
+        text-align: center;
+      }
+  }
+  
+  /*LAPTOP AND MORE*/
+  @media (min-width: 1024px) {
+    .title {
+      font-size:2.5em;
+      padding-top:2.5em;
+    }
+    .buttonContainer {
+        max-width:400px;
+        margin:0 auto;
+      }
+  }

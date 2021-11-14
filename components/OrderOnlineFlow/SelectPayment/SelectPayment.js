@@ -14,35 +14,40 @@ export const SelectPayment = (props) => {
         let currentStep = props.currentStep
         props.setCurrentStep(currentStep + 1)
     }
-    
-    if(data.order.length !== 0) {
+
+    if (data.order.length !== 0) {
         //Generate The Order ID
         contentList = data.order.map((item, index) => {
-            return(
-                <li key={index}>
-                    <span>{item.title}</span>
-                    <span>{item.quantity}</span>
-                    <span>{item.price}</span>
+            return (
+                <li className={styles.listContainer} key={index}>
+                    <span className={styles.listItem}>{item.title}</span>
+                    <span className={styles.listItem}>{item.subTitle} 🌶️</span>
+                    <span className={styles.listItem}>{item.quantity}</span>
+                    <span className={styles.listItem}>{item.price} €</span>
                 </li>
             )
         })
         grandTotal = data.order.reduce((acc, crr) => acc + Number(crr.price), 0)
     }
-    
+
     return (
         <div>
-            <h2>Checkout!</h2>
+            <h2 className={styles.title} >Check your Order</h2>
             <div className={styles.underline}>_____________________</div>
-            <div>
-                <h3>Order Details:</h3>
-                <ul>
-                    {contentList}
-                </ul>
-                <span>{grandTotal}</span>
+            <div className={styles.orderContainer}>
+                <h3 className={styles.subtitle}>Order Details</h3>
+                <div className={styles.itemsContainer}>
+                    <ul>
+                        {contentList}
+                    </ul>
+                </div>
+                <div className={styles.price}>
+                    <span>{grandTotal} €</span>
+                </div>
             </div>
-            <div>
-                <button onClick={nextPage}>PayPal</button>
-                <button onClick={nextPage}>Cash</button>
+            <div className={styles.buttonContainer} >
+                <button  className={styles.payButton} onClick={nextPage}>PayPal</button>
+                <button  className={styles.payButton} onClick={nextPage}>Cash</button>
             </div>
         </div>
     )

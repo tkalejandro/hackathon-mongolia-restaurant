@@ -1,4 +1,8 @@
 .title {
+padding-top:1.9em;
+  font-style: italic;
+  font-size: 1.5em;
+  font-family: "Open Sans";
   text-align: center;
 }
 .underline {
@@ -11,6 +15,7 @@
 .formContainer{
   max-width:600px;
   margin:0 auto;
+  padding-bottom:15px;
 
 }
 .formContainer label,
@@ -41,20 +46,33 @@
   margin: 30px auto;
   box-shadow: 0 5px 20px -3px rgba(0, 0, 0, 0.25);
 }
+.confirmButton:hover{
+  box-shadow:0 5px 10px -3px rgba(0, 0, 0, 0.25);
 
+}
+.confirmButton:active{
+  box-shadow:inset 2px 1px 5px rgba(82, 82, 82, 0.664);
+}
 @media (min-width: 480px) {
+  .title {
+    padding-top:2.5em;
+  }
 }
 
 /*TABLET*/
 @media (min-width: 768px) {
-  .menuCard {
-    width: 46%;
+  .title {
+    font-size:2.3em;
+
+    padding-top:3.3em;
   }
+
 }
 
 /*LAPTOP AND MORE*/
 @media (min-width: 1024px) {
-  .menuCard {
-    width: 22%;
+  .title {
+    font-size:2.5em;
+    padding-top:2.5em;
   }
 }

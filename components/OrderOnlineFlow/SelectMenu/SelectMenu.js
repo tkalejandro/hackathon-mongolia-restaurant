@@ -60,7 +60,7 @@ export const SelectMenu = (props) => {
                     alt={menu.title}
 
                 /> */}
-                <img src={menu.img} alt={menu.title}/>
+                <img className={styles.cardImage} src={menu.img} alt={menu.title}/>
                 <div className={styles.cardInfoContainer}>
                     <h3 className={styles.cardTitle}>{menu.title}</h3>
 
