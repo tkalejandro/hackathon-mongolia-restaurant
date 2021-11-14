@@ -19,7 +19,14 @@ export default function Home(props) {
 
       <Title />
       <AboutUs />
-      <Menu />
+      <Menu 
+        userSelectMenu={props.userSelectMenu}
+        setUserSelectMenu={props.setUserSelectMenu}
+        currentStep={props.currentStep} 
+        setCurrentStep={props.setCurrentStep} 
+        order={props.order} 
+        setOrder={props.setOrder}
+      />
       <section className={styles.orderContainer}>
         {/* slide 4 */}
         <h2>Order</h2>
