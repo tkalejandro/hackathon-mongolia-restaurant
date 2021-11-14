@@ -11,10 +11,10 @@ export const restaurantMenu = [
     },
     {
         img:"../images/menu2.jpg", 
-        title: "I can eat Eve",
+        title: "Hungry Audrey",
         subTitle: "(Medium Menu)", 
         protein: "250 grams of our seasoned beef, pork, lamb, turkey, chicken, and shrimp",
-        veggies: "250 grams of fresh cabbage, tofu, onion, broccoli, and mushrooms",
+        veggies: "150 grams of fresh cabbage, tofu, onion, broccoli, and mushrooms",
         price: "13.99",
     },
     {
@@ -22,7 +22,7 @@ export const restaurantMenu = [
         title: "Starving Marvin",
         subTitle: "(Big Menu)", 
         protein: "250 grams of our seasoned beef, pork, lamb, turkey, chicken, and shrimp",
-        veggies: "250 grams of fresh cabbage, tofu, onion, broccoli, and mushrooms",
+        veggies: "200 grams of fresh cabbage, tofu, onion, broccoli, and mushrooms",
         price: "15.99",
     },
     {
@@ -31,8 +31,7 @@ export const restaurantMenu = [
         subTitle: "(Big Menu)", 
         protein: "200 gram of roasted Tofu ",
         veggies: "250 grams of fresh cabbage, tofu, onion, broccoli, and mushrooms",
-        price: "9.99",
+        price: "11.99",
     },
     
 ]
-
