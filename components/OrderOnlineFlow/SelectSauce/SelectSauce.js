@@ -51,7 +51,7 @@ export const SelectSauce = (props) => {
                     <span className={styles.subTitle}>{menu.subTitle}</span>
                     <p>{menu.description}</p>
                     
-                    <div>{menu.price}</div>
+                    <div>{menu.price} €</div>
                 </div>
                 <button id={index} className={styles.cardButton} onClick={selectedSauce}>Select</button>
             </div>

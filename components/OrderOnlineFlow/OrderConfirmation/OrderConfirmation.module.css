@@ -1,0 +1,107 @@
+.thanksContainer {
+  max-width: 600px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgba(255, 217, 0, 0.575);
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 20px -3px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+
+.title {
+  padding-top: 2.6em;
+  padding-bottom: 1em;
+  font-style: italic;
+  font-size: 1.5em;
+  font-family: "Open Sans";
+  text-align: center;
+}
+
+.subtitle {
+  margin-top: 1em;
+}
+
+
+.underline {
+  font-size: 1.2em;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.orderNumber {
+  font-weight: 600;
+  font-size: 2em;
+  padding-bottom:.3em;
+}
+
+.contact {
+  margin-top: 1.5em;
+  padding-bottom:2em;
+  text-align: center;
+}
+.button {
+  display: block;
+  min-width: 100px;
+  height: 50px;
+  background-color: rgb(255, 178, 13);
+  border: none;
+  color: rgb(0, 0, 0);
+  font-size: 1em;
+  margin: 30px auto;
+  box-shadow: 0 5px 20px -3px rgba(0, 0, 0, 0.25);
+  padding: 0.5em;
+  border-radius: 0.25rem;
+
+}
+.payButton:hover {
+  box-shadow: 0 5px 10px -3px rgba(0, 0, 0, 0.25);
+}
+.payButton:active {
+  box-shadow: inset 2px 1px 5px rgba(82, 82, 82, 0.664);
+}
+
+
+@media (min-width: 480px) {
+    .title {
+font-size:2.5em;
+    }
+    .underline {
+        font-size: 1.7em;
+      }
+      .orderContainer{
+      max-width:300px;
+      margin:0 auto;
+      }
+      .thanksContainer{
+margin-bottom:4em;
+      }
+  }
+  
+  /*TABLET*/
+  @media (min-width: 768px) {
+    .title {
+      font-size:3em;
+      padding-top:3.6em;
+    }
+    .underline {
+        font-size: 2.5em;
+      }
+      .orderContainer{
+        max-width:300px;
+
+        }
+  }
+  
+  /*LAPTOP AND MORE*/
+  @media (min-width: 1024px) {
+    .title {
+      font-size:2.5em;
+      padding-top:2.5em;
+    }
+    .buttonContainer {
+        max-width:400px;
+        margin:0 auto;
+      }
+  }

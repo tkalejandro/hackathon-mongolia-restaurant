@@ -49,7 +49,7 @@ const Menu = (props) => {
                     <p>{menu.protein}</p>
                     <span>+</span>
                     <p>{menu.veggies}</p>
-                    <div className={styles.price} >{menu.price}</div>
+                    <div className={styles.price} >{menu.price} €</div>
                 </div>
 
 

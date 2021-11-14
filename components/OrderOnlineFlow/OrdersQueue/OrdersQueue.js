@@ -42,13 +42,13 @@ export const OrdersQueue = (props) => {
         return (
             <div key={index} className={styles.dataBox}>
                 {index === 0
-                    ? <span>Delivered</span>
+                    ? <span className={styles.delivered}>Delivered</span>
                     : index === 1
-                        ? <span>Preparing</span>
-                        : <span>{index - 1}</span>
+                        ? <span  className={styles.preparing}>Preparing</span>
+                        : <span className={styles.number}>{index - 1}</span>
                 }
-                <span>Order</span>
-                <span>{item}</span>
+                <span className={styles.hidden}>Order</span>
+                <span className={styles.orderNumber} >{item}</span>
 
             </div>
         )
@@ -58,13 +58,16 @@ export const OrdersQueue = (props) => {
 
     return (
         <div>
-            <h2>Where is my order</h2>
+            <h2 className={styles.title}>Where is my order</h2>
+            <div className={styles.underline}>_____________________</div>
+            <div className={styles.orderContainer}>
             <div className={styles.dataBoxContainer}>
                 {data.length === 0
-                    ? <p>There is no orders</p>
+                    ? <p>There are no current orders</p>
                     : orders
                 }
             </div>
+        </div>
         </div>
     )
 }

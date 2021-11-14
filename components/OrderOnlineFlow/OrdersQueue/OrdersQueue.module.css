@@ -1,35 +1,134 @@
-.dataBox {
-    width: 48%;
-    max-width: 400px;
-    max-height: 300px;
-    padding: 10px;
-    margin: 1%;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    border: 1px solid black;
+.title {
+  padding-top: 2.5em;
+  font-style: italic;
+  font-size: 1.5em;
+  font-family: "Open Sans";
+  text-align: center;
 }
+
+.underline {
+  font-size: 1.2em;
+  text-align: center;
+  text-decoration: black wavy underline;
+  color: transparent;
+  margin-bottom: 1em;
+}
+
+.dataBox {
+  width: 48%;
+  max-width: 400px;
+  max-height: 300px;
+  margin: 1%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-weight: 800;
+  border-radius: 7px;
+}
+.number {
+  font-weight: 800;
+  font-size: 1.5em;
+}
+.hidden {
+  color: transparent;
+}
+.delivered,
+.preparing {
+  text-transform: uppercase;
+}
+.orderNumber {
+    width:100%;
+  font-size: 2.6em;
+  background-color: rgba(255, 255, 255, 0.308);
+
+  text-align: center;
+}
+
+.dataBox:nth-child(1) {
+  background-color: hsl(40, 100%, 40%);
+}
+.dataBox:nth-child(2) {
+  background-color: hsl(40, 100%, 40%);
+}
+.dataBox:nth-child(3) {
+  background-color: hsla(40, 100%, 40%, 0.877);
+}
+.dataBox:nth-child(4) {
+  background-color: hsla(40, 100%, 40%, 0.767);
+}
+.dataBox:nth-child(5) {
+  background-color: hsla(40, 100%, 40%, 0.658);
+}
+.dataBox:nth-child(6) {
+  background-color: hsla(40, 100%, 40%, 0.527);
+}
+.dataBox:nth-child(7) {
+  background-color: hsla(40, 100%, 40%, 0.555);
+}
+.dataBox:nth-child(8) {
+  background-color: hsla(40, 100%, 40%, 0.37);
+}
+
 .dataBoxContainer {
-    min-height: 100vh;
-    border: 1px solid yellow;
-    display: flex;
-    padding: 20px 0;
-    flex-wrap: wrap;
+  min-height: 100vh;
+  display: flex;
+  padding: 20px 0;
+  flex-wrap: wrap;
 }
 
 @media (min-width: 480px) {
-
+  .title {
+    font-size: 1.9em;
+  }
+  .underline {
+    font-size: 1.5em;
+  }
 }
 
 /*TABLET*/
 @media (min-width: 768px) {
-  
+  .title {
+    font-size: 3em;
+    padding-top: 3.6em;
+  }
+  .underline {
+    font-size: 2.5em;
+  }
+  .delivered,
+  .preparing {
+    font-size: 2em;
+  }
+  .number {
+    font-size: 2em;
+  }
 }
 
 /*LAPTOP AND MORE*/
 @media (min-width: 1024px) {
   .dataBox {
-      width: 22%;
+    width: 22%;
+  }
+
+  .title {
+    font-size: 3em;
+    padding-top: 2em;
+  }
+  .underline {
+    font-size: 3em;
+  }
+  .delivered,
+  .preparing {
+    font-size: 1.6em;
+  }
+  .number {
+    font-size: 1.8em;
+  }
+  .orderNumber {
+    font-size: 2.6em;
+    background-color: rgba(255, 255, 255, 0.308);
+    padding: 0.5em;
+    text-align: center;
   }
 }

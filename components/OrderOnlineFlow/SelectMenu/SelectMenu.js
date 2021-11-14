@@ -53,7 +53,7 @@ export const SelectMenu = (props) => {
                     <p>{menu.protein}</p>
                     <span>+</span>
                     <p>{menu.veggies}</p>
-                    <div>{menu.price}</div>
+                    <div>{menu.price} €</div>
                 </div>
                 <button id={index} className={styles.cardButton} onClick={selectedMenu}>Select</button>
             </div>
