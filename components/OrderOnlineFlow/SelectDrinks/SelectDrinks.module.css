@@ -1,4 +1,5 @@
 .title {
+  margin-top:1em;
     font-style: italic;
     font-size: 2.7em;
     font-family: "Open Sans";
@@ -9,6 +10,8 @@
     text-align: center;
     text-decoration: black wavy underline;
     color: transparent;
+    padding-bottom:1em;
+
   } 
   
   .menuContainer {
@@ -49,6 +52,7 @@
   }
   
   .subTitle {
+    font-size:2.5em;
     font-weight: 800;
     display: block;
     margin-bottom: 1em;
@@ -63,14 +67,27 @@
     color: rgb(0, 0, 0);
     font-size: 1em;
     margin: 10px auto;
-    box-shadow: 0 5px 20px -3px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 5px 25px -3px rgba(0, 0, 0, 0.25);
   }
- 
+  .cardButton:hover{
+    box-shadow:0 5px 10px -3px rgba(0, 0, 0, 0.25);
+  
+  }
   @media (min-width: 480px) {
+
   }
   
   /*TABLET*/
   @media (min-width: 768px) {
+
+    .title {
+      margin-top:.1em;
+      font-size:3em;
+    }
+    .underline {
+      font-size: 1.9em;
+    }
+    
     .menuCard {
       width: 46%;
     }
