@@ -18,7 +18,7 @@ const Menu = () => {
                     alt={menu.title}
                     
                 /> */}
-                <img src={menu.img} alt={menu.title}/>
+                <img className={styles.menuImage} src={menu.img} alt={menu.title}/>
                 <div className={styles.cardInfoContainer}>
                     <h3 className={styles.cardTitle}>{menu.title}</h3>
 
