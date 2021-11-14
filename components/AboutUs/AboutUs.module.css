@@ -15,7 +15,9 @@
   left: 0;
 }
 
-
+.title{
+  font-size:2em;
+}
 
 
 .imageContainer{
@@ -81,6 +83,15 @@
 
 /*TABLET*/
 @media (min-width: 768px) {
+  .title {
+    font-size:4em;
+  }
+  .underline {
+    font-size: 1.9em;
+    padding-bottom:1em;
+  }
+  
+  
   .imageContainer{
 
   }
