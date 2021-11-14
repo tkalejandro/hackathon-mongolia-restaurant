@@ -1,64 +1,84 @@
 .aboutContainer {
-    width: 100vw;
-    min-height: 100vh;
-    position: relative;
-    background-color: rgba(224, 144, 52, 0.733);
-    position: relative;
-  }
-  
-  .imageContainerAboutTop {
-    width:100%;
-    height:100px;  
-    position: absolute;
-    background-color: rgba(255, 255, 255, 0.877);
-    top: 0;
-    left: 0;
-  }
-.aboutImageTop{
-  opacity: 0.2;
-
+  width: 100vw;
+  min-height: 100vh;
+  position: relative;
+  background-color: rgba(224, 144, 52, 0.473);
+  position: relative;
 }
+
+.imageContainerAboutTop {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  background-color: rgba(184, 0, 0, 0.548);
+  top: 0;
+  left: 0;
+}
+
+
+.imageContainer1,
+.imageContainer2,
+.imageContainer3{
+  padding:2em;
+  max-width: 600px;
+  text-align: center;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.726);
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 20px -3px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+
+.faces{
+
+  border-radius:50%;
+
   
-  .imageContainerAboutBottom {
-    width: 100%;
-    height: 100px;
-    background-color: rgb(255, 255, 255);
-    position: absolute;
-    bottom: 0;
-    left: 0;
-  }
-.aboutImageBottom{
+}
+.imageContainerAboutBottom {
+  width: 100%;
+  height: 100px;
+  background-color: rgba(184, 0, 0, 0.548);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.aboutImageBottom {
   opacity: 0.2;
 }
 .aboutContainer article {
-    margin: 0 auto;
-    padding-top: 100px;
-    padding-bottom: 150px;
-    text-align: center;
-    line-height: 1.5em;
-  }
-  
-  .aboutContainer article h2 {
-    font-style: italic;
-    font-family: "Open Sans";
-    font-size: 1.5em;
-    text-align: center;
-    padding-top: 3em;
-  }
-  .aboutContainer article p {
-    margin-top: 2em;
-    font-size: 1em;
-    font-family: Arapey;
-  }
-  
-  .underline2 {
-    font-size: 1em;
-    text-decoration: black wavy underline;
-    color: transparent;
-  }
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 150px;
+  text-align: center;
+  line-height: 1.5em;
+}
 
-  @media (min-width: 480px) {
-  
+.aboutContainer article h2 {
+  font-style: italic;
+  font-family: "Open Sans";
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 3em;
+}
+.aboutContainer article p {
+  margin-top: 2em;
+  font-size: 1em;
+  font-family: Arapey;
+}
+
+.underline {
+  font-size: 1em;
+  text-decoration: black wavy underline;
+  color: transparent;
+  margin-bottom:2em;
+}
+
+@media (min-width: 480px) {
   .aboutContainer article h2 {
     font-size: 2em;
     padding-top: 1.5em;
@@ -67,7 +87,6 @@
 
 /*TABLET*/
 @media (min-width: 768px) {
-  
   .aboutContainer article h2 {
     font-size: 3em;
     padding-top: 1.5em;
@@ -90,7 +109,6 @@
 
 /*LAPTOP AND MORE*/
 @media (min-width: 1024px) {
-  
   .aboutContainer article {
     padding-left: 3em;
     padding-right: 3em;

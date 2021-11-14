@@ -47,7 +47,13 @@
 .cardImage{
   max-height:300px;
 }
-
+.price{
+  font-weight:700;
+  padding-top:1em ;
+}
+.cardInfoContainer{
+  padding:1em;
+}
 .cardTitle {
   padding: 10px 0;
   font-family: "Open Sans";
