@@ -27,7 +27,7 @@ const Title = () => {
           className={styles.logoImage}
         />
       </div>
-      <p> Mongolian BBQ Restaurant!</p>
+      <p className={styles.mongoliaBbq}> Mongolian BBQ Restaurant!</p>
       
       <div className={styles.circleLogo}>
         <div className={styles.circle}></div>

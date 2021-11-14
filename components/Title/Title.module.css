@@ -20,7 +20,7 @@
   border-radius: 50%;
   border: 2px solid orange;
   position: relative;
-  top: 60px;
+  top: -100px;
   left: 20px;
   display: flex;
   justify-content: center;
@@ -47,6 +47,11 @@
   object-fit: cover;
   z-index: -3;
 }
+.mongoliaBbq{
+  position: relative;
+  top: -140px;
+  left: 0;
+}
 
 /*SMALL PHONES*/
 @media (min-width: 480px) {
@@ -63,6 +68,21 @@
 
 /*TABLET*/
 @media (min-width: 768px) {
+  .baconContainer {
+    width: 680px;
+    position: relative;
+    left: -45px;
+    top:-150px
+  }
+  .mongoliaBbq{
+    top:-410px;
+    left: 20px;
+  }
+  .circleLogo{
+    max-width: 180px;
+    left: -20px;
+    top: -380px
+  }
   .titleContainer h1 {
     font-size: 5em;
   }
@@ -86,6 +106,21 @@
   .titleDiv {
     left: 5%;
     top: 20%;
+  }
+  .baconContainer {
+    width: 680px;
+    position: relative;
+    left: -45px;
+    top:-120px;
+  }
+  .mongoliaBbq{
+    top:-380px;
+    left: 20px;
+  }
+  .circleLogo{
+    max-width: 200px;
+    left: 0px;
+    top: -320px
   }
 }
 
