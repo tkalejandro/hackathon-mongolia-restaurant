@@ -1,7 +1,7 @@
 import styles from "./SelectMenu.module.css"
 import { restaurantMenu } from "../../../public/Data/restaurantMenu.js"
 import { useEffect } from "react"
-import Button from "../Button/Button"
+
 export const SelectMenu = (props) => {
     useEffect(() => {
         window.scrollTo(0, 0)
@@ -70,9 +70,7 @@ export const SelectMenu = (props) => {
                     {content}
                 </div>
                 <div>
-                    <Button 
-                        type="cancel"
-                    />
+                    
                 </div>
   
         </section>

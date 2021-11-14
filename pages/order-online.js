@@ -53,6 +53,13 @@ const orderNow = (props) => {
                                             />
                 }
             </section>
+            <div>
+                {
+                    currentStep === 0
+                    ? <button>Cancel Order</button>
+                    : <></>
+                }
+            </div>
         </>
     )
 }
