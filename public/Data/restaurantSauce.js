@@ -22,7 +22,7 @@ export const restaurantSauce = [
     {
         img:"https://steamykitchen.com/wp-content/uploads/2017/04/mongolian-bbq-recipe-1791.jpg", 
         title: "Soja de la oya",
-        subTitle: "🥑🥑", 
+        subTitle: "🌱🌱", 
         description: "you can’t go wrong with our Classic Soya sauce",
         price: "0.99"
     },
