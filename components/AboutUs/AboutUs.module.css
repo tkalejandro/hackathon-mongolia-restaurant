@@ -28,7 +28,7 @@
   display: flex;
   flex-direction: column;
   align-items:center;
-  justify-content: space-between;
+  justify-content: flex-start;
   background-color: rgba(255, 255, 255, 0.726);
   border-radius: 0.25rem;
   box-shadow: 0 20px 20px -3px rgba(0, 0, 0, 0.25);
@@ -93,7 +93,7 @@
   
   
   .imageContainer{
-
+    
   }
   .roundImageContainer{
     display:grid;
@@ -138,6 +138,10 @@
 
 /*LAPTOP AND MORE*/
 @media (min-width: 1024px) {
+  .imageContainer{
+    margin: 10px;
+    width: 90%;
+  }
   .roundImageContainer{
     display:grid;
     grid-template-areas:"item1 item3 item2";

@@ -2,7 +2,7 @@
 import Link from "next/link"
 import styles from "./MainNavigation.module.css"
 import Image from "next/image"
-import logoOrange from "../../public/images/logoOrange.png"
+import logoBlack from "../../public/images/logoBlack.png"
 
 const MainNavigation = () => {
     
@@ -11,7 +11,7 @@ const MainNavigation = () => {
             <div className={styles.navContainer}>
                 <div className={styles.logoContainer}>
                 <Image
-                    src={logoOrange}
+                    src={logoBlack}
                     alt="Logo"
                     className={styles.logoOrange}
                 /></div>

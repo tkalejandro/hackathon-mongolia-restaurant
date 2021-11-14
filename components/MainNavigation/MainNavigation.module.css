@@ -1,9 +1,10 @@
 
 
 .header {
+  padding: 0 3%;
   width: 100%;
   min-height:10%;
-  max-height:13%;
+  max-height:12%;
   background-color: rgba(124, 117, 108, 0.9);
   position:fixed;
   z-index:5;
@@ -14,21 +15,16 @@
   width:100%;
   padding:.3em;
   display:flex;
-  margin-top:1.8em;
-  align-items:top;
+  
+  align-items:center;
   justify-content:space-between;
 }
 .logoContainer{
-  width:40%;
-  position:relative;
-  top:-40px;
-  right:15px;
+  width: 29%;
+  
 
 }
 
-.logoOrange{
-  position:absolute;
-}
 
 
 .mainNavList{
@@ -59,21 +55,16 @@ text-shadow: 4px 4px  rgb(175, 105, 0);
 
 
 .mainNavLinks a:hover{
-  text-shadow: 2px 2px  rgb(175, 105, 0);
+  border-top: 3.5px solid black ;
 
  }
 
 
 @media (min-width: 480px) {
   .logoContainer{
-    max-width:70px;
+    width: 25%;
   }
-  .logoContainer{
-    position:relative;
-    top:-40px;
-    right:15px;
   
-  }
   
 }
 
@@ -83,7 +74,7 @@ text-shadow: 4px 4px  rgb(175, 105, 0);
    font-size: 1.4em;
    }
    .logoContainer{
-    max-width:90px;
+    width: 20%;
   }
 }
 
@@ -91,10 +82,9 @@ text-shadow: 4px 4px  rgb(175, 105, 0);
 @media (min-width: 1024px) {
   .mainNavLinks{
     font-size: 1.4em;
-    margin-right:100px;
+    
     }
-
     .logoContainer{
-      max-width:80px;
+      max-width: 100px;
     }
 }
