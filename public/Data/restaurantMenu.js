@@ -2,15 +2,20 @@ export const restaurantMenu = [
     {
         img:"../images/menu1.jpg", 
         title: "Just a bite Mike",
-        subTitle: "(Small Menu)", 
+        subTitle: "Small Menu", 
         protein: "150 grams of our seasoned beef, pork, lamb, turkey, chicken, and shrimp",
         veggies: "100 grams of fresh cabbage, tofu, onion, broccoli, and mushrooms",
         price: "9.99"
     },
     {
         img:"../images/menu2.jpg", 
+<<<<<<< HEAD
         title: "Hungry Audrey",
         subTitle: "(Medium Menu)", 
+=======
+        title: "I can eat Eve",
+        subTitle: "Medium Menu", 
+>>>>>>> b9bb716806909b8b9bb4b9faf6fd4bfadf7e9d68
         protein: "250 grams of our seasoned beef, pork, lamb, turkey, chicken, and shrimp",
         veggies: "150 grams of fresh cabbage, tofu, onion, broccoli, and mushrooms",
         price: "13.99",
@@ -18,7 +23,7 @@ export const restaurantMenu = [
     {
         img:"../images/menu3.jpg", 
         title: "Starving Marvin",
-        subTitle: "(Big Menu)", 
+        subTitle: "Big Menu", 
         protein: "250 grams of our seasoned beef, pork, lamb, turkey, chicken, and shrimp",
         veggies: "200 grams of fresh cabbage, tofu, onion, broccoli, and mushrooms",
         price: "15.99",
@@ -26,7 +31,7 @@ export const restaurantMenu = [
     {
         img:"../images/menuVegan.jpg", 
         title: "Vegan Megan",
-        subTitle: "(Big Menu)", 
+        subTitle: "Big Menu", 
         protein: "200 gram of roasted Tofu ",
         veggies: "250 grams of fresh cabbage, tofu, onion, broccoli, and mushrooms",
         price: "11.99",

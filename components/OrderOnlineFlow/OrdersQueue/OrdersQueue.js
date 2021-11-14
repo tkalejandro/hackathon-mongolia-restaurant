@@ -44,7 +44,7 @@ export const OrdersQueue = (props) => {
                 {index === 0
                     ? <span className={styles.delivered}>Delivered</span>
                     : index === 1
-                        ? <span  className={styles.preparing}>Preparing</span>
+                        ? <span className={styles.preparing}>Preparing</span>
                         : <span className={styles.number}>{index - 1}</span>
                 }
                 <span className={styles.hidden}>Order</span>
