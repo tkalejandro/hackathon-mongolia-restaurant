@@ -19,7 +19,6 @@ const Title = () => {
         layout="fill"
         objectFit="cover"
         className={styles.bgImage}
- 
       />
       
 
