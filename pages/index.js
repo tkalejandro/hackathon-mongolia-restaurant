@@ -7,9 +7,9 @@ import Menu from '../components/Menu/Menu'
 import styles from '../styles/Home.module.css'
 import OrdersQueue from '../components/OrderOnlineFlow/OrdersQueue/OrdersQueue'
 
+
 export default function Home(props) {
 
-  console.log(props.data)
   return (
     <>
       <Head>
