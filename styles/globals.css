@@ -42,3 +42,9 @@ background: hsla(32, 17%, 63%, 0.349);
 button{
   cursor:pointer;
 }
+
+#specialID{
+  border: 5px solid white;
+  background-color: rgba(0, 0, 0, 0.735);
+
+}

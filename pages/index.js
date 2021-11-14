@@ -20,15 +20,26 @@ export default function Home(props) {
 
       <Title />
       <AboutUs />
-      <Menu 
+      <Menu
         userSelectMenu={props.userSelectMenu}
         setUserSelectMenu={props.setUserSelectMenu}
-        currentStep={props.currentStep} 
-        setCurrentStep={props.setCurrentStep} 
-        order={props.order} 
+        currentStep={props.currentStep}
+        setCurrentStep={props.setCurrentStep}
+        order={props.order}
         setOrder={props.setOrder}
       />
-      <OrdersQueue />
+      <OrdersQueue
+        setUserInQueue={props.setUserInQueue}
+        userInQueue={props.userInQueue}
+        orderNumber={props.orderNumber}
+        currentStep={props.currentUser}
+        setCurrentStep={props.setCurrentStep}
+        data={props.data}
+        setData={props.setData}
+        userSelectMenu={props.userSelectMenu}
+        setUserSelectMenu={props.setUserSelectMenu}
+        setOrder={props.setOrder}
+      />
     </>
   )
 }

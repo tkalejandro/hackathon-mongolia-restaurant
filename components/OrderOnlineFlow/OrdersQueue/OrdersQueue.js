@@ -9,8 +9,8 @@ export const OrdersQueue = (props) => {
       }, [])
     
 
-
-    const [data, setData] = useState(["H799", "Z895", "A795", "B455", "M425", "U005", "X123"])
+    let data = props.data
+    
 
     
 
@@ -23,24 +23,31 @@ export const OrdersQueue = (props) => {
 
     console.log("Order number:", props.orderNumber)
     console.log("User in Q", props.userInQueue)
+    console.log("User select Menu", props.userSelectMenu)
     useEffect(() => {
         const interval = setInterval(() => {
 
         let cloneData = [...data]
+
+        
         cloneData.push(generateFakeData())
         props.userInQueue ? (cloneData.push(props.orderNumber), props.setUserInQueue(false)) : props.userInQueue
+
+        cloneData.includes(props.orderNumber) ? console.log("You are in Queue") : (props.setUserSelectMenu(false), props.setCurrentStep(0), props.setOrder([]))
         cloneData.shift()
         console.log(data)
-        setData(cloneData)
-        }, 10000);
+        props.setData(cloneData)
+        }, 7000);
         return () => clearInterval(interval);
       }, [data]);
 
 
 
     let orders = data.map((item, index) => {
+        
         return (
-            <div key={index} className={styles.dataBox}>
+            
+            <div id={data.includes(props.orderNumber) && item === props.orderNumber ? "specialID" : ""} key={index} className={styles.dataBox}>
                 {index === 0
                     ? <span className={styles.delivered}>Delivered</span>
                     : index === 1

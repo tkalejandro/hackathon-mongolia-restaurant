@@ -16,6 +16,9 @@ function MyApp({ Component, pageProps }) {
   const [order, setOrder] = useState([])
   const [orderNumber, setOrderNumber] = useState("")
 
+  //DUMMY DATA
+  const [data, setData] = useState(["H799", "Z895", "A795", "B455", "M425", "U005", "X123"])
+
   //CURRENT USER:
   const [currentStep, setCurrentStep] = useState(0)
   const [currentUser, setCurrentUser] = useState({
@@ -58,6 +61,8 @@ function MyApp({ Component, pageProps }) {
         setCurrentUser={setCurrentUser}
         currentStep={currentStep}
         setCurrentStep={setCurrentStep}
+        data={data}
+        setData={setData}
       />
     </Layout>
   )

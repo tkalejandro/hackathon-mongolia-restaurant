@@ -15,8 +15,8 @@ const orderNow = (props) => {
     // console.log("goback order",props.order)
     // console.log("goback step",currentStep)
     const goBack = () => {
-        
-       
+
+
         if (currentStep === 1 || currentStep === 2 || currentStep === 3) {
             let newArray = order.splice(0, order.length - 1)
             props.setOrder(newArray)
@@ -30,7 +30,7 @@ const orderNow = (props) => {
         props.setOrder([])
         props.setUserSelectMenu(false)
     }
-    
+
     return (
         <>
             <h1 className="orderHiddenH1">Order Now</h1>
@@ -69,6 +69,11 @@ const orderNow = (props) => {
                                                 orderNumber={props.orderNumber}
                                                 currentStep={props.currentUser}
                                                 setCurrentStep={props.setCurrentStep}
+                                                data={props.data}
+                                                setData={props.setData}
+                                                userSelectMenu={props.userSelectMenu}
+                                                setUserSelectMenu={props.setUserSelectMenu}
+                                                setOrder={props.setOrder}
                                             />
                 }
                 <div>
