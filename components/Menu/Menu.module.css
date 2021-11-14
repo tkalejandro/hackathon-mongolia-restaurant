@@ -45,7 +45,7 @@
   width: 100%;
   text-align: center;
   margin: 10px 0;
-  padding: 10px 0;
+  /* padding: 10px 0; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -70,6 +70,7 @@ opacity: 0.5;
   
 }
 .menuImage{
+  border-radius: 0.25rem 0.25rem 0 0;
   max-height:300px;
 }
 
@@ -99,10 +100,19 @@ opacity: 0.5;
 }
 
 @media (min-width: 480px) {
+
 }
 
 /*TABLET*/
 @media (min-width: 768px) {
+  .title {
+    font-size:3em;
+  }
+  .underline {
+    font-size: 1.9em;
+    padding-bottom:1em;
+  }
+  
   .menuCard {
     width: 46%;
   }
@@ -110,6 +120,9 @@ opacity: 0.5;
 
 /*LAPTOP AND MORE*/
 @media (min-width: 1024px) {
+  .title {
+
+  }
   .menuCard {
     width: 22%;
   }

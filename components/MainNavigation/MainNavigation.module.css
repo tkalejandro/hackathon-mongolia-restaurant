@@ -1,8 +1,6 @@
 
 
 .header {
-  /*margin: 0.5%;
-  width: 99%;*/
   width: 100%;
   min-height: 10%;
   max-height:15%;
@@ -13,7 +11,6 @@
 
 }
 .navContainer{
-  
   width:100%;
   height:30%;
   padding:.3em;
@@ -24,15 +21,13 @@
 .logoContainer{
   max-width:60px;
   display:flex;
-
 }
-
 
 .mainNavList{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  
+
 }
 
 .mainNavLinks{
@@ -67,19 +62,20 @@ border-top:1px solid black;
 /*TABLET*/
 @media (min-width: 768px) {
   .mainNavLinks{
-   font-size: 1.7em;
+   font-size: 1.4em;
    }
    .logoContainer{
-    max-width:130px;
+    max-width:90px;
   }
 }
 
 /*LAPTOP AND MORE*/
 @media (min-width: 1024px) {
   .mainNavLinks{
-    font-size: 1.2em;
+    font-size: 1.4em;
     margin-right:100px;
     }
+
     .logoContainer{
       max-width:80px;
     }
