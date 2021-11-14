@@ -5,6 +5,7 @@ import AboutUs from '../components/AboutUs/AboutUs'
 import Footer from '../components/Footer/Footer'
 import Menu from '../components/Menu/Menu'
 import styles from '../styles/Home.module.css'
+import OrdersQueue from '../components/OrderOnlineFlow/OrdersQueue/OrdersQueue'
 
 export default function Home(props) {
 
@@ -27,10 +28,7 @@ export default function Home(props) {
         order={props.order} 
         setOrder={props.setOrder}
       />
-      <section className={styles.orderContainer}>
-        {/* slide 4 */}
-        <h2>Order</h2>
-      </section>
+      <OrdersQueue />
     </>
   )
 }

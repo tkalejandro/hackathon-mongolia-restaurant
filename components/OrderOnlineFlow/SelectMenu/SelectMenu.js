@@ -11,6 +11,7 @@ export const SelectMenu = (props) => {
 
         let currentOrder = props.order
         let currentStep = props.currentStep
+        props.setUserSelectMenu(true)
         props.setCurrentStep(currentStep + 1)
         let addMenu = {
             title: restaurantMenu[event.target.id].title,

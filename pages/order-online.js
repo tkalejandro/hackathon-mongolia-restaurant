@@ -10,15 +10,34 @@ import SelectSauce from "../components/OrderOnlineFlow/SelectSauce/SelectSauce"
 const orderNow = (props) => {
     let userSelectMenu = props.userSelectMenu
     let currentStep = props.currentStep
-    console.log("Current User", props.currentUser)
-    console.log("Current Order", props.order)
+    let order = props.order
+    console.log("---ORDER---", order)
+    // console.log("goback order",props.order)
+    // console.log("goback step",currentStep)
+    const goBack = () => {
+        
+       
+        if (currentStep === 1 || currentStep === 2 || currentStep === 3) {
+            let newArray = order.splice(0, order.length - 1)
+            props.setOrder(newArray)
+        }
+
+        let newStep = currentStep - 1
+        props.setCurrentStep(newStep)
+    }
+    const cancelOrder = () => {
+        props.setCurrentStep(0)
+        props.setOrder([])
+        props.setUserSelectMenu(false)
+    }
+    
     return (
         <>
             <h1 className="orderHiddenH1">Order Now</h1>
             <section className="backgroundContainer">
                 {
                     currentStep === 0
-                        ? <SelectMenu currentStep={props.currentStep} setCurrentStep={props.setCurrentStep} order={props.order} setOrder={props.setOrder} />
+                        ? <SelectMenu setUserSelectMenu={props.setUserSelectMenu} currentStep={props.currentStep} setCurrentStep={props.setCurrentStep} order={props.order} setOrder={props.setOrder} />
                         : currentStep === 1
                             ? <SelectSauce currentStep={props.currentStep} setCurrentStep={props.setCurrentStep} order={props.order} setOrder={props.setOrder} />
                             : currentStep === 2
@@ -52,14 +71,15 @@ const orderNow = (props) => {
                                                 setCurrentStep={props.setCurrentStep}
                                             />
                 }
+                <div>
+                    {
+                        currentStep === 0 || currentStep === 5 || currentStep === 6
+                            ? <></>
+                            : <> <button onClick={goBack}>Return</button> <button onClick={cancelOrder}>Cancel Order</button></>
+                    }
+                </div>
             </section>
-            <div>
-                {
-                    currentStep === 0
-                    ? <button>Cancel Order</button>
-                    : <></>
-                }
-            </div>
+
         </>
     )
 }
