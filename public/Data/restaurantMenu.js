@@ -9,13 +9,8 @@ export const restaurantMenu = [
     },
     {
         img:"../images/menu2.jpg", 
-<<<<<<< HEAD
-        title: "Hungry Audrey",
-        subTitle: "(Medium Menu)", 
-=======
         title: "I can eat Eve",
         subTitle: "Medium Menu", 
->>>>>>> b9bb716806909b8b9bb4b9faf6fd4bfadf7e9d68
         protein: "250 grams of our seasoned beef, pork, lamb, turkey, chicken, and shrimp",
         veggies: "150 grams of fresh cabbage, tofu, onion, broccoli, and mushrooms",
         price: "13.99",
