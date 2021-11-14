@@ -1,8 +1,8 @@
 
 import Link from "next/link"
 import styles from "./MainNavigation.module.css"
-import logoBlack from "../../public/images/logoBlack.png"
 import Image from "next/image"
+import logoOrange from "../../public/images/logoOrange.png"
 
 const MainNavigation = () => {
     
@@ -11,9 +11,9 @@ const MainNavigation = () => {
             <div className={styles.navContainer}>
                 <div className={styles.logoContainer}>
                 <Image
-                    src={logoBlack}
+                    src={logoOrange}
                     alt="Logo"
-                    className={styles.logoBlack}
+                    className={styles.logoOrange}
                 /></div>
                 <nav className={styles.mainNav}>
                     <ul className={styles.mainNavList}>

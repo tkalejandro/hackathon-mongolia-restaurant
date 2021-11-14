@@ -1,131 +1,49 @@
 .titleContainer {
   width: 100vw;
   height: 100vh;
-  position:relative;
-  background-color: rgba(0, 0, 0, 0.438);
+  position: relative;
 }
 
-.baconContainer {
-  width: 330px;
-  position: relative;
-  left: -45px;
-  top:0
-  
-}
-.logoImage{
-
-}
-.circleLogo {
-  max-width: 50%;
-  border-radius: 50%;
-  border: 2px solid orange;
-  position: relative;
-  top: -100px;
-  left: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.logoWhite {
-  width: 10%;
-}
 .titleContainer h1 {
   color: transparent;
 }
-
-.titleContainer p {
-  color: white;
-  margin-top: 1.5em;
-  font-size: 1.4em;
-  font-style: italic;
-  letter-spacing: .2em;
+.imageContainer{
+  width:140%;
+  position:relative;
+  top:-45px;
+  left:-45px;
 }
+.secondImageContainer{
 
-.bgImage {
-  width:100vw;
-  height:100vh;
-  object-fit: cover;
-  z-index: -3;
 }
-.mongoliaBbq{
-
-  max-width: 600px;
-  position: relative;
-  top: -140px;
-  left: 0;
-  background: black;
-}
-
 /*SMALL PHONES*/
 @media (min-width: 480px) {
-
-  .titleContainer p {
-    font-size: 1.4em;
-    font-weight: 500;
-  }
-
-  .underline {
-    font-size: 1.5em;
+  .imageContainer{
+    width:90%;
+    top:-100px;
+    left:23px;
   }
 }
 
 /*TABLET*/
 @media (min-width: 768px) {
-  .baconContainer {
-    width: 680px;
-    position: relative;
-    left: -45px;
-    top:-150px
-  }
-  .mongoliaBbq{
-    top:-410px;
-    left: 20px;
-  }
-  .circleLogo{
-    max-width: 180px;
-    left: -20px;
-    top: -380px
-  }
-  .titleContainer h1 {
-    font-size: 5em;
-  }
 
-  .titleContainer p {
-    font-size: 2em;
-    font-weight: 500;
-  }
+  /*add landingImageBig here*/
 
-  .underline {
-    font-size: 2.2em;
-  }
 
-  .underline2 {
-    font-size: 1.7em;
-  }
+  .imageContainer{
+  width:90%;
+  top:-180px;
+  left:33px;
+}
+
 }
 
 /*LAPTOP AND MORE*/
 @media (min-width: 1024px) {
-  .titleDiv {
-    left: 5%;
-    top: 20%;
-  }
-  .baconContainer {
-    width: 680px;
-    position: relative;
-    left: -45px;
-    top:-120px;
-  }
-  .mongoliaBbq{
-    top:-380px;
-    left: 20px;
-  }
-  .circleLogo{
-    max-width: 200px;
-    left: 0px;
-    top: -320px
+  .imageContainer{
+    width:50%;
+    top:-180px;
+    left:233px;
   }
 }
-
-
-

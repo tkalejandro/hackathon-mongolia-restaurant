@@ -16,9 +16,9 @@
 }
 
 
-.imageContainer1,
-.imageContainer2,
-.imageContainer3{
+
+
+.imageContainer{
   padding:2em;
   max-width: 600px;
   text-align: center;
@@ -34,10 +34,7 @@
 }
 
 .faces{
-
   border-radius:50%;
-
-  
 }
 .imageContainerAboutBottom {
   width: 100%;
@@ -47,9 +44,7 @@
   bottom: 0;
   left: 0;
 }
-.aboutImageBottom {
-  opacity: 0.2;
-}
+
 .aboutContainer article {
   margin: 0 auto;
   padding-top: 100px;
@@ -79,20 +74,43 @@
 }
 
 @media (min-width: 480px) {
-  .aboutContainer article h2 {
-    font-size: 2em;
-    padding-top: 1.5em;
-  }
+.imageContainer{
+  width:300px;
+}
 }
 
 /*TABLET*/
 @media (min-width: 768px) {
-  .aboutContainer article h2 {
-    font-size: 3em;
-    padding-top: 1.5em;
+  .imageContainer{
+
   }
-  .underline2 {
-    font-size: 1.7em;
+  .roundImageContainer{
+    display:grid;
+    grid-template-areas:"item1 item2"
+    "item3 item3" ;
+    }
+    .imageContainer:nth-child(1){
+    grid-area: item1;
+    }
+    .imageContainer:nth-child(2){
+      grid-area: item2;
+    }
+    .imageContainer:nth-child(3){
+      grid-area: item3;
+    }
+  
+  
+  
+  
+  
+  
+  /* .title {
+
+    font-size:5em;
+  }
+  .underline {
+    font-size: 1.9em;
+    padding-bottom:1em;
   }
 
   .aboutContainer article p {
@@ -104,11 +122,16 @@
   }
   .imageContainerAboutBottom {
     height: 140px;
-  }
+  } */
 }
 
 /*LAPTOP AND MORE*/
 @media (min-width: 1024px) {
+  .roundImageContainer{
+    display:grid;
+    grid-template-areas:"item1 item3 item2";
+    }
+
   .aboutContainer article {
     padding-left: 3em;
     padding-right: 3em;
