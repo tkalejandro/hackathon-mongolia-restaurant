@@ -1,89 +1,89 @@
-.titleDiv {
-    position: absolute;
-    left: 10%;
-    top: 30%;
-  }
-  
-  .underline {
-    font-size: 1em;
-    text-decoration: rgb(177, 121, 18) wavy underline;
-    /* text-shadow:  -3px 4px black; */
-    color: transparent;
-  }
-  
-  .titleContainer {
-    width: 100vw;
-    height: 100vh;
-    position: relative;
-    /*background: url("../../images/landingImage.jpg") center/cover no-repeat;*/
-  }
-  
-  .titleContainer h1 {
-    color: transparent;
-    font-style: italic;
-    font-family: "Open Sans";
-    font-size: 2em;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgb(247, 184, 68);
-    text-shadow: -3px 4px black;
-  }
-  
+.titleContainer {
+  width: 100vw;
+  height: 100vh;
+  position:relative;
+  background-color: rgba(0, 0, 0, 0.438);
+}
+
+.baconContainer {
+
+}
+.logoImage{
+
+}
+.circleLogo {
+  max-width: 50%;
+  border-radius: 50%;
+  border: 2px solid orange;
+  position: relative;
+  top: 60px;
+  left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logoWhite {
+  width: 10%;
+}
+.titleContainer h1 {
+  color: transparent;
+}
+
+.titleContainer p {
+  color: white;
+  margin-top: 1.5em;
+  font-size: 1.4em;
+  font-style: italic;
+  letter-spacing: .2em;
+}
+
+.bgImage {
+  width:100vw;
+  height:100vh;
+  object-fit: cover;
+  z-index: -3;
+}
+
+/*SMALL PHONES*/
+@media (min-width: 480px) {
+
   .titleContainer p {
-    color: rgb(247, 184, 68);
-    margin-top: 1.5em;
-    font-size: 1em;
-    font-family: Arapey;
-    font-style: italic;
+    font-size: 1.4em;
+    font-weight: 500;
   }
-  
-  .bgImage {
-    object-fit: cover;
+
+  .underline {
+    font-size: 1.5em;
   }
-  
-  
-  /*SMALL PHONES*/
-  @media (min-width: 480px) {
-    .titleContainer h1 {
-      font-size: 3em;
-    }
-  
-    .titleContainer p {
-      font-size: 1.4em;
-      font-weight: 500;
-    }
-  
-    .underline {
-      font-size: 1.5em;
-    }
-    
+}
+
+/*TABLET*/
+@media (min-width: 768px) {
+  .titleContainer h1 {
+    font-size: 5em;
   }
-  
-  /*TABLET*/
-  @media (min-width: 768px) {
-    .titleContainer h1 {
-      font-size: 5em;
-    }
-  
-    .titleContainer p {
-      font-size: 2em;
-      font-weight: 500;
-    }
-  
-    .underline {
-      font-size: 2.2em;
-    }
-    
-    .underline2 {
-      font-size: 1.7em;
-    }
+
+  .titleContainer p {
+    font-size: 2em;
+    font-weight: 500;
   }
-  
-  /*LAPTOP AND MORE*/
-  @media (min-width: 1024px) {
-    .titleDiv {
-      left: 5%;
-      top: 20%;
-    }
-    
+
+  .underline {
+    font-size: 2.2em;
   }
-  
+
+  .underline2 {
+    font-size: 1.7em;
+  }
+}
+
+/*LAPTOP AND MORE*/
+@media (min-width: 1024px) {
+  .titleDiv {
+    left: 5%;
+    top: 20%;
+  }
+}
+
+
+
