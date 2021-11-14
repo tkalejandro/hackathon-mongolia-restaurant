@@ -11,42 +11,28 @@ export const SelectSauce = (props) => {
         let currentOrder = props.order
         let currentStep = props.currentStep
         props.setCurrentStep(currentStep + 1)
+        let addSauce = {
+            title: restaurantSauce[event.target.id].title,
+            subTitle: restaurantSauce[event.target.id].subTitle,
+            price: restaurantSauce[event.target.id].price,
+            quantity: 1,
+        }
         switch (event.target.id) {
-            
             case "0":
-                let addMenu1 = { 
-                    title: restaurantSauce[event.target.id].title, 
-                    price: restaurantSauce[event.target.id].price,
-                    quantity: 1,
-                }
-                
-                props.setOrder([...currentOrder, addMenu1])
-        
-                return
+                props.setOrder([...currentOrder, addSauce])
+
+                break
             case "1":
-                let addMenu2 = { 
-                    title: restaurantSauce[Number(event.target.id)].title, 
-                    price: restaurantSauce[event.target.id].price,
-                    quantity: 1,
-                }
-                props.setOrder([...currentOrder, addMenu2])
-                return
+                props.setOrder([...currentOrder, addSauce])
+                break
             case "2":
-                let addMenu3 = { 
-                    title: restaurantSauce[Number(event.target.id)].title, 
-                    price: restaurantSauce[event.target.id].price,
-                    quantity: 1,
-                }
-                props.setOrder([...currentOrder, addMenu3])
-                return
+                props.setOrder([...currentOrder, addSauce])
+                break
             case "3":
-                let addMenu4 = { 
-                    title: restaurantSauce[Number(event.target.id)].title, 
-                    price: restaurantSauce[event.target.id].price,
-                    quantity: 1,
-                }
-                props.setOrder([...currentOrder, addMenu4])
-                return
+                props.setOrder([...currentOrder, addSauce])
+                break
+            default:
+                break
         }
     }
 

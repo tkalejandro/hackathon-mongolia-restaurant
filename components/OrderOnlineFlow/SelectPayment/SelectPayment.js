@@ -21,7 +21,7 @@ export const SelectPayment = (props) => {
             return (
                 <li className={styles.listContainer} key={index}>
                     <span className={styles.listItem}>{item.title}</span>
-                    <span className={styles.listItem}>{item.subTitle} 🌶️</span>
+                    <span className={styles.listItem}>{item.subTitle}</span>
                     <span className={styles.listItem}>{item.quantity}</span>
                     <span className={styles.listItem}>{item.price} €</span>
                 </li>
