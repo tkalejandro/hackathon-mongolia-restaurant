@@ -37,3 +37,7 @@ color:transparent;
 background: hsla(32, 17%, 63%, 0.349);
 
 }
+
+button{
+  cursor:pointer;
+}
