@@ -77,7 +77,7 @@ const Menu = (props) => {
             {
                 props.userSelectMenu
                 ?<><Link href='/order-online' passHref>
-                            <button className={styles.cardButton}>Finish Order</button>
+                            <button className={styles.backToOrderButton}>Back To Order</button>
                         </Link></>
                 :<></>
             }

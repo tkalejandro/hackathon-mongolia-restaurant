@@ -22,6 +22,9 @@
   width: 20%;
 }
 
+.freeDeliveryContainer{
+  display:none;
+}
 
 
 .mainNavList{
@@ -67,7 +70,12 @@ text-shadow: 4px 4px  rgb(175, 105, 0);
     width: 65px;
   }
 
-  
+  .freeDeliveryContainer{
+   width:70%;
+    display:block;
+    position:relative;
+    transform:rotate(-10deg);
+  }
 }
 
 
@@ -77,8 +85,12 @@ text-shadow: 4px 4px  rgb(175, 105, 0);
    font-size: 1.4em;
    }
    .logoContainer{
-    width: 120px;
+    min-width: 10%;
   }
+  .freeDeliveryContainer{
+    width:100%;
+
+   }
 }
 
 /*LAPTOP AND MORE*/
@@ -92,6 +104,12 @@ text-shadow: 4px 4px  rgb(175, 105, 0);
     }
     .logoContainer{
 
-      max-width: 70px;
+      min-width: 7%;
     }
+    .freeDeliveryContainer{
+      max-width:80%;
+      right:20px;
+      top:-1px;
+  
+     }
 }
