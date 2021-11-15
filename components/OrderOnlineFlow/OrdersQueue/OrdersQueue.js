@@ -38,7 +38,7 @@ export const OrdersQueue = (props) => {
         cloneData.shift()
         console.log(data)
         props.setData(cloneData)
-        }, 7000);
+        }, 5000);
         return () => clearInterval(interval);
       }, [data]);
 

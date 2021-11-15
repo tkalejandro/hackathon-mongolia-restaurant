@@ -27,8 +27,8 @@ export const OrderConfirmation = (props) => {
                     <span className={styles.orderNumber}>{props.orderNumber}</span>
                 </div>
                 <div >
-                   
-                    <button className={styles.button} onClick={nextPage}>Check The Queue</button>
+                    <button className={styles.button} onClick={nextPage}>Order Status</button>
+                    <p className={styles.contact}>Wait some seconds to see your Order Number </p>
                     <p className={styles.contact}>In case of any Problems you can contact us +49 30 4328795621 </p>
  
                 </div>
