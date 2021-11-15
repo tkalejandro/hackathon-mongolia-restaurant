@@ -21,6 +21,8 @@ So let me take you through the ordering process.
 
 ## Check our Advertisement!
 
+https://youtu.be/4uOon3xCvIo
+
 HERE GOES VIDEO
 ## Masterminds!
 In Alphabetical order:
