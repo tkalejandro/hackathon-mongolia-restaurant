@@ -33,6 +33,7 @@ export const OrdersQueue = (props) => {
         cloneData.push(generateFakeData())
         props.userInQueue ? (cloneData.push(props.orderNumber), props.setUserInQueue(false)) : props.userInQueue
 
+        //cloneData[1] === props.orderNumber ? console.log("You are in Queue") : (props.setUserSelectMenu(false), props.setCurrentStep(0), props.setOrder([]))
         cloneData.includes(props.orderNumber) ? console.log("You are in Queue") : (props.setUserSelectMenu(false), props.setCurrentStep(0), props.setOrder([]))
         cloneData.shift()
         console.log(data)
