@@ -44,7 +44,7 @@ Class FbW-WD21-E02
 https://www.linkedin.com/in/jorge-alejandro-coronado-cuesta-69488b90/
 
 
-### Franziska Seits
+### Franziska Seitz
 
 Our Styles Magician and Web-Responsive Superstar!
 
