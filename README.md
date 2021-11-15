@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# HACKATHON - Stir It Up
+Mongolia BBQ Social Restuarant. Order now online!
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Our Story
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+It’s not always what it seems. That's what we thought after hearing that Mongolian Barbecue is not really from mongolia.
+What we did find is a fascinating story of man Wu Zhaonan  who created the Mongolian Barbecue.
+And as we set out to make this Website 
+3 aspects of this man life stuck out.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- Obviously the food. 
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- The fact that he is the one who developed the mongolian Barbecue.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- And he was a Refugee: help those in need.
 
-## Learn More
+These 3 points are the inspiration for Stir it up.
+So let me take you through the ordering process.
 
-To learn more about Next.js, take a look at the following resources:
+## Check our Advertisement!
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+HERE GOES VIDEO
+## Masterminds!
+In Alphabetical order:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Ricardo Bergeth
 
-## Deploy on Vercel
+Our Marketing guy and Story Teller!
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Class FBW 49/1
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# hackathon-mongolia-restaurant
-# hackathon-mongolia-restaurant
+https://www.linkedin.com/in/ricardo-hurtado-bergeth-09770211b/
+
+### J. Alejandro Coronado
+
+Our Logic guy and Web-Architect of the project!
+
+Class FbW-WD21-E02
+
+https://www.linkedin.com/in/jorge-alejandro-coronado-cuesta-69488b90/
+
+
+### Franziska Seits
+
+Our Styles Magician and Web-Responsive Superstar!
+
+FBW-md-21-e09
+
+https://loerk.github.io/coding-journey/index.html
