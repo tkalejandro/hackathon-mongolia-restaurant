@@ -6,6 +6,7 @@ import logoImage from "../../public/images/StirItUp.png"
 import old2 from "../../public/images/old2.jpg"
 import logoOrange from "../../public/images/logoOrange.png"
 import logoBlack from "../../public/images/logoBlack.png"
+import freeDelivery from "../../public/images/free2.png"
 import { useState, useEffect } from 'react'
 
 const Title = () => {
@@ -31,16 +32,16 @@ const Title = () => {
         />
       </div>
    
-      {/* <div className={styles.secondImageContainer}>
-        <div className={styles.image}>
+      <div className={styles.secondImageContainer}>
+        <div className={styles.freeDeliveryContainer}>
           <Image
-          src={}
+          src={freeDelivery}
           alt="Logo"
-          className={styles.logoWhite}
-
+          className={styles.freeDelivery}
         />
+        
         </div>
-      </div> */}
+      </div>
 
     </section>
   )

@@ -12,8 +12,17 @@
   height:102vh;
   position:relative;
   top:-45px;
-  left:-45px;
+  left:-60px;
   background-color: rgba(0, 0, 0, 0.432);
+}
+
+.freeDeliveryContainer{
+ 
+  width:50%;
+  position:relative;
+  top:-220px;
+  left:20px;
+  transform:rotate(-10deg);
 }
 
 /*SMALL PHONES*/
@@ -22,11 +31,14 @@
 @media (min-width: 480px) {
 
   .imageContainer{
-    width:120%;
+    width:70%;
     height:102vh;
     position:relative;
     top:-40px;
     left:-45px;
+  }
+  .freeDeliveryContainer{
+display:none;
   }
 
 }
@@ -41,6 +53,9 @@
     top:-50px;
     left:-45px;
   }
+  .freeDeliveryContainer{
+   display:none;
+  }
 }
 
 /*LAPTOP AND MORE*/
@@ -51,5 +66,8 @@
     position:relative;
     top:-44px;
     left:-45px;
+  }
+  .freeDeliveryContainer{
+    display:none;
   }
 }
