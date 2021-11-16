@@ -1,6 +1,8 @@
 ```
 For the fairness of this event. This 3 days code will not change. 
 Only comments might be added in the future or changes in the README file.
+
+This project: Got First Place. At Hackathon 2.0 from Digital Career Institute.
 ```
 
 # HACKATHON - Stir It Up
