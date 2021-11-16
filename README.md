@@ -1,3 +1,7 @@
+```
+For the fairness of this event. This 3 days code will not change. 
+Only comments might be added in the future or changes in the README file.
+```
 
 # HACKATHON - Stir It Up
 Mongolia BBQ Social Restuarant. Order now online!
