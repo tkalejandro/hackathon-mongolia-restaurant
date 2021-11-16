@@ -20,7 +20,7 @@ And as we set out to make this Website
 
 - The fact that he is the one who developed the mongolian Barbecue.
 
-- And he was a Refugee: help those in need.
+- And he was a Refugee: support those in need.
 
 These 3 points are the inspiration for Stir it up.
 So let me take you through the ordering process.
@@ -53,7 +53,7 @@ https://www.linkedin.com/in/jorge-alejandro-coronado-cuesta-69488b90/
 ### Franziska Seitz
 
 
-Our Styles Magician and Web-Responsive Superstar!
+Our Styler and Web-Responsive Super(trick-)star!
 
 FBW-md-21-e09
 
