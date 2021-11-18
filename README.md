@@ -57,4 +57,4 @@ Our Styler and Web-Responsive Super(trick-)star!
 
 FBW-md-21-e09
 
-https://loerk.github.io/coding-journey/index.html
+https://www.linkedin.com/in/franziska-seitz-001b92225/
